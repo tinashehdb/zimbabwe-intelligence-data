@@ -1,7 +1,7 @@
 {
   "feedVersion": "1.0",
   "country": "Zimbabwe",
-  "updatedAt": "2026-08-27T13:30:00Z",
+  "updatedAt": "2026-08-27T13:45:00Z",
   "datasets": {
     "cabinet": {
       "status": "connected",
@@ -13,8 +13,11 @@
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/cabinet/cabinet_briefings_2026.json"
     },
     "parliament": {
-      "status": "not_connected",
-      "version": 1,
+      "status": "connected_partial",
+      "version": 2,
+      "schemaVersion": 1,
+      "recordCount": 15,
+      "sourceReportedTotal": 18,
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/parliament/bills.json"
     },
     "economy": {
