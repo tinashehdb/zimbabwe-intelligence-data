@@ -1,0 +1,47 @@
+{
+  "feedVersion": "1.0",
+  "country": "Zimbabwe",
+  "updatedAt": "2026-08-27T12:30:00Z",
+  "datasets": {
+    "cabinet": {
+      "status": "awaiting_initial_upload",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/cabinet/cabinet_briefings_2026.json"
+    },
+    "parliament": {
+      "status": "not_connected",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/parliament/bills.json"
+    },
+    "economy": {
+      "status": "not_connected",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/economy/rbz_rates.json"
+    },
+    "tenders": {
+      "status": "not_connected",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/tenders/tenders.json"
+    },
+    "animalHealth": {
+      "status": "not_connected",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/events.json"
+    },
+    "health": {
+      "status": "not_connected",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/health/who_indicators.json"
+    },
+    "weather": {
+      "status": "direct_api_planned",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/weather/status.json"
+    },
+    "alerts": {
+      "status": "not_connected",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/alerts/emergencies.json"
+    }
+  }
+}
