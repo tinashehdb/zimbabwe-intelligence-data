@@ -1,51 +1,97 @@
 {
-  "feedVersion": "1.0",
-  "schemaVersion": 1,
+  "feedVersion": "1.1",
+  "schemaVersion": 2,
   "source": "Reserve Bank of Zimbabwe",
   "sourceUrl": "https://www.rbz.co.zw/",
   "status": "connected",
-  "updatedAt": "2026-08-27T13:30:00Z",
+  "updatedAt": "2026-08-27T14:50:00Z",
   "effectiveDate": "2026-08-27",
   "rates": [
-    {"id":"USD-ZWG-2026-08-27","pair":"USD/ZWG","bid":25.8310,"ask":27.1556,"average":26.4933,"effectiveDate":"2026-08-27","rateType":"interbank"},
-    {"id":"GBP-ZWG-2026-08-27","pair":"GBP/ZWG","bid":35.0965,"ask":36.9153,"average":36.0059,"effectiveDate":"2026-08-27","rateType":"interbank"},
-    {"id":"EUR-ZWG-2026-08-27","pair":"EUR/ZWG","bid":30.1111,"ask":31.6579,"average":30.8845,"effectiveDate":"2026-08-27","rateType":"interbank"},
-    {"id":"ZWG-ZAR-2026-08-27","pair":"ZWG/ZAR","bid":0.5873,"ask":0.6177,"average":0.6025,"effectiveDate":"2026-08-27","rateType":"interbank"},
-    {"id":"BWP-ZWG-2026-08-27","pair":"BWP/ZWG","bid":1.8288,"ask":1.9606,"average":1.8947,"effectiveDate":"2026-08-27","rateType":"interbank"}
+    {"id":"USD-ZWG-2026-08-27","pair":"USD/ZWG","currencyCode":"USD","currencyName":"US Dollar","quoteCurrency":"ZWG","bid":25.8310,"ask":27.1556,"average":26.4933,"rate":26.4933,"unit":"ZWG per USD","rateType":"interbank","effectiveDate":"2026-08-27","source":"Reserve Bank of Zimbabwe","sourceUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2","fetchedAt":"2026-08-27T14:50:00Z"},
+    {"id":"GBP-ZWG-2026-08-27","pair":"GBP/ZWG","currencyCode":"GBP","currencyName":"British Pound","quoteCurrency":"ZWG","bid":35.0965,"ask":36.9153,"average":36.0059,"rate":36.0059,"unit":"ZWG per GBP","rateType":"interbank","effectiveDate":"2026-08-27","source":"Reserve Bank of Zimbabwe","sourceUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2","fetchedAt":"2026-08-27T14:50:00Z"},
+    {"id":"EUR-ZWG-2026-08-27","pair":"EUR/ZWG","currencyCode":"EUR","currencyName":"Euro","quoteCurrency":"ZWG","bid":30.1111,"ask":31.6579,"average":30.8845,"rate":30.8845,"unit":"ZWG per EUR","rateType":"interbank","effectiveDate":"2026-08-27","source":"Reserve Bank of Zimbabwe","sourceUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2","fetchedAt":"2026-08-27T14:50:00Z"},
+    {"id":"ZWG-ZAR-2026-08-27","pair":"ZWG/ZAR","currencyCode":"ZWG","currencyName":"Zimbabwe Gold","quoteCurrency":"ZAR","bid":0.5873,"ask":0.6177,"average":0.6025,"rate":0.6025,"unit":"ZAR per ZWG","rateType":"interbank","effectiveDate":"2026-08-27","source":"Reserve Bank of Zimbabwe","sourceUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2","fetchedAt":"2026-08-27T14:50:00Z"},
+    {"id":"BWP-ZWG-2026-08-27","pair":"BWP/ZWG","currencyCode":"BWP","currencyName":"Botswana Pula","quoteCurrency":"ZWG","bid":1.8288,"ask":1.9606,"average":1.8947,"rate":1.8947,"unit":"ZWG per BWP","rateType":"interbank","effectiveDate":"2026-08-27","source":"Reserve Bank of Zimbabwe","sourceUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2","fetchedAt":"2026-08-27T14:50:00Z"}
+  ],
+  "exchangeRates": [
+    {"id":"USD-ZWG-2026-08-27","pair":"USD/ZWG","currencyCode":"USD","currencyName":"US Dollar","quoteCurrency":"ZWG","bid":25.8310,"ask":27.1556,"average":26.4933,"rate":26.4933,"unit":"ZWG per USD","rateType":"interbank","effectiveDate":"2026-08-27"},
+    {"id":"GBP-ZWG-2026-08-27","pair":"GBP/ZWG","currencyCode":"GBP","currencyName":"British Pound","quoteCurrency":"ZWG","bid":35.0965,"ask":36.9153,"average":36.0059,"rate":36.0059,"unit":"ZWG per GBP","rateType":"interbank","effectiveDate":"2026-08-27"},
+    {"id":"EUR-ZWG-2026-08-27","pair":"EUR/ZWG","currencyCode":"EUR","currencyName":"Euro","quoteCurrency":"ZWG","bid":30.1111,"ask":31.6579,"average":30.8845,"rate":30.8845,"unit":"ZWG per EUR","rateType":"interbank","effectiveDate":"2026-08-27"},
+    {"id":"ZWG-ZAR-2026-08-27","pair":"ZWG/ZAR","currencyCode":"ZWG","currencyName":"Zimbabwe Gold","quoteCurrency":"ZAR","bid":0.5873,"ask":0.6177,"average":0.6025,"rate":0.6025,"unit":"ZAR per ZWG","rateType":"interbank","effectiveDate":"2026-08-27"},
+    {"id":"BWP-ZWG-2026-08-27","pair":"BWP/ZWG","currencyCode":"BWP","currencyName":"Botswana Pula","quoteCurrency":"ZWG","bid":1.8288,"ask":1.9606,"average":1.8947,"rate":1.8947,"unit":"ZWG per BWP","rateType":"interbank","effectiveDate":"2026-08-27"}
   ],
   "inflation": {
     "period": "August 2026",
     "zwg": {"monthOnMonthPct":0.10,"yearOnYearPct":2.89},
     "usd": {"cpiIndex":125.63,"monthOnMonthPct":0.01,"yearOnYearPct":3.13,"foodMonthOnMonthPct":-0.23,"foodYearOnYearPct":2.93,"nonFoodMonthOnMonthPct":0.13,"nonFoodYearOnYearPct":3.23}
   },
+  "inflationObservations": [
+    {"id":"ZWG-MOM-INFL-2026-08","indicatorCode":"ZWG_MOM_INFLATION","indicatorName":"ZWG month-on-month inflation","value":0.10,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"ZWG"},
+    {"id":"ZWG-YOY-INFL-2026-08","indicatorCode":"ZWG_YOY_INFLATION","indicatorName":"ZWG year-on-year inflation","value":2.89,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"ZWG"},
+    {"id":"USD-CPI-2026-08","indicatorCode":"USD_CPI_INDEX","indicatorName":"USD CPI Index","value":125.63,"unit":"index","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"},
+    {"id":"USD-MOM-INFL-2026-08","indicatorCode":"USD_MOM_INFLATION","indicatorName":"USD month-on-month inflation","value":0.01,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"},
+    {"id":"USD-YOY-INFL-2026-08","indicatorCode":"USD_YOY_INFLATION","indicatorName":"USD year-on-year inflation","value":3.13,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"},
+    {"id":"USD-FOOD-MOM-2026-08","indicatorCode":"USD_FOOD_MOM_INFLATION","indicatorName":"USD food month-on-month inflation","value":-0.23,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"},
+    {"id":"USD-FOOD-YOY-2026-08","indicatorCode":"USD_FOOD_YOY_INFLATION","indicatorName":"USD food year-on-year inflation","value":2.93,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"},
+    {"id":"USD-NONFOOD-MOM-2026-08","indicatorCode":"USD_NONFOOD_MOM_INFLATION","indicatorName":"USD non-food month-on-month inflation","value":0.13,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"},
+    {"id":"USD-NONFOOD-YOY-2026-08","indicatorCode":"USD_NONFOOD_YOY_INFLATION","indicatorName":"USD non-food year-on-year inflation","value":3.23,"unit":"percent","period":"August 2026","effectiveDate":"2026-08-01","currency":"USD"}
+  ],
   "monetaryPolicy": {
-    "bankPolicyRatePct": 30.0,
-    "effectiveFrom": "2026-06-15",
-    "previousRatePct": 35.0,
-    "targetedFinanceFacilityRatePct": 15.0,
-    "maximumProductiveSectorOnLendingRatePct": 25.0,
-    "statutoryReserveDemandDepositsPct": 30.0,
-    "statutoryReserveSavingsAndTimeDepositsPct": 15.0,
-    "sourceUrl": "https://www.rbz.co.zw/documents/press/2026/June/MPC_Press_Statement_15_June_2026.pdf"
+    "bankPolicyRatePct":30.0,
+    "effectiveFrom":"2026-06-15",
+    "previousRatePct":35.0,
+    "targetedFinanceFacilityRatePct":15.0,
+    "maximumProductiveSectorOnLendingRatePct":25.0,
+    "statutoryReserveDemandDepositsPct":30.0,
+    "statutoryReserveSavingsAndTimeDepositsPct":15.0,
+    "sourceUrl":"https://www.rbz.co.zw/documents/press/2026/June/MPC_Press_Statement_15_June_2026.pdf"
   },
+  "monetaryPolicyIndicators": [
+    {"id":"BANK-POLICY-RATE-2026-06-15","indicatorCode":"BANK_POLICY_RATE","indicatorName":"Bank Policy Rate","value":30.0,"unit":"percent","period":"From 15 June 2026","effectiveDate":"2026-06-15"},
+    {"id":"TFF-RATE-2026-06-15","indicatorCode":"TARGETED_FINANCE_FACILITY_RATE","indicatorName":"Targeted Finance Facility Rate","value":15.0,"unit":"percent","period":"From 15 June 2026","effectiveDate":"2026-06-15"},
+    {"id":"PRODUCTIVE-LENDING-CAP-2026-06-15","indicatorCode":"PRODUCTIVE_SECTOR_LENDING_CAP","indicatorName":"Maximum productive-sector on-lending rate","value":25.0,"unit":"percent","period":"From 15 June 2026","effectiveDate":"2026-06-15"},
+    {"id":"SRR-DEMAND-2026-06-15","indicatorCode":"SRR_DEMAND_DEPOSITS","indicatorName":"Statutory reserve ratio - demand deposits","value":30.0,"unit":"percent","period":"From 15 June 2026","effectiveDate":"2026-06-15"},
+    {"id":"SRR-SAVINGS-2026-06-15","indicatorCode":"SRR_SAVINGS_TIME_DEPOSITS","indicatorName":"Statutory reserve ratio - savings and time deposits","value":15.0,"unit":"percent","period":"From 15 June 2026","effectiveDate":"2026-06-15"}
+  ],
   "gold": {
-    "effectiveDate": "2026-08-27",
-    "previousDayGoldPmFixUsdPerOz": 4631.50,
-    "mosiOaTunyaSellingPrice": {
-      "USD": 4863.08,
-      "ZAR": 77599.60,
-      "BWP": 68687.50,
-      "AUD": 6772.14,
-      "GBP": 3579.21,
-      "EUR": 4171.81,
-      "ZWG": 128838.90
-    },
-    "digitalTokenPricePerMg": {"USD":0.1415,"ZWG":3.75}
+    "effectiveDate":"2026-08-27",
+    "previousDayGoldPmFixUsdPerOz":4631.50,
+    "mosiOaTunyaSellingPrice":{"USD":4863.08,"ZAR":77599.60,"BWP":68687.50,"AUD":6772.14,"GBP":3579.21,"EUR":4171.81,"ZWG":128838.90},
+    "digitalTokenPricePerMg":{"USD":0.1415,"ZWG":3.75}
   },
+  "goldPrices": [
+    {"id":"GOLD-PM-FIX-USD-2026-08-27","priceType":"previous_day_pm_fix","currency":"USD","value":4631.50,"unit":"per troy ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-USD-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"USD","value":4863.08,"unit":"per ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-ZAR-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"ZAR","value":77599.60,"unit":"per ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-BWP-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"BWP","value":68687.50,"unit":"per ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-AUD-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"AUD","value":6772.14,"unit":"per ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-GBP-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"GBP","value":3579.21,"unit":"per ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-EUR-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"EUR","value":4171.81,"unit":"per ounce","effectiveDate":"2026-08-27"},
+    {"id":"MOSI-ZWG-2026-08-27","priceType":"Mosi-oa-Tunya selling price","currency":"ZWG","value":128838.90,"unit":"per ounce","effectiveDate":"2026-08-27"}
+  ],
+  "digitalTokens": [
+    {"id":"DIGITAL-TOKEN-USD-2026-08-27","token":"RBZ gold-backed digital token","currency":"USD","value":0.1415,"unit":"per mg","effectiveDate":"2026-08-27"},
+    {"id":"DIGITAL-TOKEN-ZWG-2026-08-27","token":"RBZ gold-backed digital token","currency":"ZWG","value":3.75,"unit":"per mg","effectiveDate":"2026-08-27"}
+  ],
+  "indicators": [
+    {"id":"ZWG-MOM-INFL-2026-08","category":"inflation","indicatorName":"ZWG month-on-month inflation","value":0.10,"unit":"percent","period":"August 2026"},
+    {"id":"ZWG-YOY-INFL-2026-08","category":"inflation","indicatorName":"ZWG year-on-year inflation","value":2.89,"unit":"percent","period":"August 2026"},
+    {"id":"USD-MOM-INFL-2026-08","category":"inflation","indicatorName":"USD month-on-month inflation","value":0.01,"unit":"percent","period":"August 2026"},
+    {"id":"USD-YOY-INFL-2026-08","category":"inflation","indicatorName":"USD year-on-year inflation","value":3.13,"unit":"percent","period":"August 2026"},
+    {"id":"BANK-POLICY-RATE-2026-06-15","category":"monetary_policy","indicatorName":"Bank Policy Rate","value":30.0,"unit":"percent","period":"From 15 June 2026"},
+    {"id":"TFF-RATE-2026-06-15","category":"monetary_policy","indicatorName":"Targeted Finance Facility Rate","value":15.0,"unit":"percent","period":"From 15 June 2026"},
+    {"id":"GOLD-PM-FIX-USD-2026-08-27","category":"gold","indicatorName":"Previous day's gold PM fix","value":4631.50,"unit":"USD per ounce","period":"27 August 2026"},
+    {"id":"MOSI-USD-2026-08-27","category":"gold","indicatorName":"Mosi-oa-Tunya gold coin selling price","value":4863.08,"unit":"USD per ounce","period":"27 August 2026"},
+    {"id":"DIGITAL-TOKEN-USD-2026-08-27","category":"digital_token","indicatorName":"Gold-backed digital token price","value":0.1415,"unit":"USD per mg","period":"27 August 2026"},
+    {"id":"DIGITAL-TOKEN-ZWG-2026-08-27","category":"digital_token","indicatorName":"Gold-backed digital token price","value":3.75,"unit":"ZWG per mg","period":"27 August 2026"}
+  ],
   "provenance": {
-    "exchangeRatesUrl": "https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2",
-    "inflationSource": "Reserve Bank of Zimbabwe website",
-    "policySource": "Monetary Policy Committee Press Statement, 15 June 2026",
-    "note": "Values are an official-source snapshot. Future automation should append dated observations rather than overwrite historical records."
+    "exchangeRatesUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2",
+    "inflationSource":"Reserve Bank of Zimbabwe website",
+    "inflationSourceUrl":"https://www.rbz.co.zw/",
+    "policySource":"Monetary Policy Committee Press Statement, 15 June 2026",
+    "policySourceUrl":"https://www.rbz.co.zw/documents/press/2026/June/MPC_Press_Statement_15_June_2026.pdf",
+    "goldSourceUrl":"https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2",
+    "note":"Official RBZ snapshot structured redundantly for Android compatibility. Use IDs and dates for deduplication."
   }
 }
