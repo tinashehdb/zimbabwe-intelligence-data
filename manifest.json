@@ -1,11 +1,15 @@
 {
   "feedVersion": "1.0",
   "country": "Zimbabwe",
-  "updatedAt": "2026-08-27T12:30:00Z",
+  "updatedAt": "2026-08-27T13:30:00Z",
   "datasets": {
     "cabinet": {
-      "status": "awaiting_initial_upload",
-      "version": 1,
+      "status": "connected",
+      "version": 2,
+      "schemaVersion": 1,
+      "recordCount": 24,
+      "coverageFrom": "2026-02-10",
+      "coverageTo": "2026-07-21",
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/cabinet/cabinet_briefings_2026.json"
     },
     "parliament": {
