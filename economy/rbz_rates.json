@@ -1,8 +1,51 @@
 {
   "feedVersion": "1.0",
+  "schemaVersion": 1,
   "source": "Reserve Bank of Zimbabwe",
-  "status": "not_connected",
-  "updatedAt": null,
-  "rates": [],
-  "indicators": []
+  "sourceUrl": "https://www.rbz.co.zw/",
+  "status": "connected",
+  "updatedAt": "2026-08-27T13:30:00Z",
+  "effectiveDate": "2026-08-27",
+  "rates": [
+    {"id":"USD-ZWG-2026-08-27","pair":"USD/ZWG","bid":25.8310,"ask":27.1556,"average":26.4933,"effectiveDate":"2026-08-27","rateType":"interbank"},
+    {"id":"GBP-ZWG-2026-08-27","pair":"GBP/ZWG","bid":35.0965,"ask":36.9153,"average":36.0059,"effectiveDate":"2026-08-27","rateType":"interbank"},
+    {"id":"EUR-ZWG-2026-08-27","pair":"EUR/ZWG","bid":30.1111,"ask":31.6579,"average":30.8845,"effectiveDate":"2026-08-27","rateType":"interbank"},
+    {"id":"ZWG-ZAR-2026-08-27","pair":"ZWG/ZAR","bid":0.5873,"ask":0.6177,"average":0.6025,"effectiveDate":"2026-08-27","rateType":"interbank"},
+    {"id":"BWP-ZWG-2026-08-27","pair":"BWP/ZWG","bid":1.8288,"ask":1.9606,"average":1.8947,"effectiveDate":"2026-08-27","rateType":"interbank"}
+  ],
+  "inflation": {
+    "period": "August 2026",
+    "zwg": {"monthOnMonthPct":0.10,"yearOnYearPct":2.89},
+    "usd": {"cpiIndex":125.63,"monthOnMonthPct":0.01,"yearOnYearPct":3.13,"foodMonthOnMonthPct":-0.23,"foodYearOnYearPct":2.93,"nonFoodMonthOnMonthPct":0.13,"nonFoodYearOnYearPct":3.23}
+  },
+  "monetaryPolicy": {
+    "bankPolicyRatePct": 30.0,
+    "effectiveFrom": "2026-06-15",
+    "previousRatePct": 35.0,
+    "targetedFinanceFacilityRatePct": 15.0,
+    "maximumProductiveSectorOnLendingRatePct": 25.0,
+    "statutoryReserveDemandDepositsPct": 30.0,
+    "statutoryReserveSavingsAndTimeDepositsPct": 15.0,
+    "sourceUrl": "https://www.rbz.co.zw/documents/press/2026/June/MPC_Press_Statement_15_June_2026.pdf"
+  },
+  "gold": {
+    "effectiveDate": "2026-08-27",
+    "previousDayGoldPmFixUsdPerOz": 4631.50,
+    "mosiOaTunyaSellingPrice": {
+      "USD": 4863.08,
+      "ZAR": 77599.60,
+      "BWP": 68687.50,
+      "AUD": 6772.14,
+      "GBP": 3579.21,
+      "EUR": 4171.81,
+      "ZWG": 128838.90
+    },
+    "digitalTokenPricePerMg": {"USD":0.1415,"ZWG":3.75}
+  },
+  "provenance": {
+    "exchangeRatesUrl": "https://www.rbz.co.zw/index.php/2-uncategorised/56-rates-2",
+    "inflationSource": "Reserve Bank of Zimbabwe website",
+    "policySource": "Monetary Policy Committee Press Statement, 15 June 2026",
+    "note": "Values are an official-source snapshot. Future automation should append dated observations rather than overwrite historical records."
+  }
 }
