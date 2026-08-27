@@ -1,8 +1,690 @@
 {
-  "feedVersion": "1.0",
-  "country": "Zimbabwe",
-  "sourceType": "post_cabinet_briefings",
-  "status": "awaiting_initial_upload",
-  "updatedAt": null,
-  "briefings": []
+  "schemaVersion": 1,
+  "datasetTitle": "Zimbabwe Post-Cabinet Press Briefings 2026",
+  "generatedOn": "2026-08-25",
+  "coverage": {
+    "from": "2026-02-10",
+    "to": "2026-07-21",
+    "recordCount": 24,
+    "note": "No January 2026 post-Cabinet briefing was located. The first Cabinet meeting of 2026 was held on 10 February 2026. No later 2026 briefing was included because this package only contains briefings verified in the source review."
+  },
+  "provenance": {
+    "primaryArchive": "Veritas Zimbabwe Post-Cabinet Meeting Briefings",
+    "primaryArchiveUrl": "https://www.veritaszim.net/cabinet-decision-matrices",
+    "secondarySources": [
+      "Zimbabwe Ministry of Information Cabinet Briefs",
+      "The Herald",
+      "ZBC News"
+    ],
+    "copyrightNote": "This file contains structured metadata, short summaries, tags and source links. It does not reproduce the full text of third-party briefing documents."
+  },
+  "briefings": [
+    {
+      "id": "ZW-CAB-2026-01",
+      "meetingNumber": 1,
+      "date": "2026-02-10",
+      "title": "First Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Constitutional Amendment No. 3 Bill, 2026",
+      "summary": "Cabinet considered proposed constitutional reforms, alongside other government updates and preparations.",
+      "categories": [
+        "Governance",
+        "Constitution",
+        "Public Administration"
+      ],
+      "keywords": [
+        "constitutional amendment",
+        "governance",
+        "cabinet",
+        "Zimbabwe"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7881",
+      "sourceNote": "Veritas record for the First Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-02",
+      "meetingNumber": 2,
+      "date": "2026-02-17",
+      "title": "Second Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Seasonal disease risks, urgent vaccine deployment and proposed contingency funding",
+      "summary": "Cabinet reviewed seasonal disease risks, vaccine deployment needs and contingency funding in the context of elevated rainy-season public-health risks.",
+      "categories": [
+        "Public Health",
+        "Disease Surveillance",
+        "Emergency Preparedness"
+      ],
+      "keywords": [
+        "seasonal disease",
+        "vaccines",
+        "waterborne disease",
+        "contingency funding",
+        "surveillance"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": true,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7899",
+      "sourceNote": "Veritas record for the Second Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-03",
+      "meetingNumber": 3,
+      "date": "2026-02-24",
+      "title": "Third Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "National Action Plan for Children IV: 2026-2030",
+      "summary": "Cabinet approved the National Action Plan for Children IV, focused on child well-being, rights and multisectoral implementation.",
+      "categories": [
+        "Social Development",
+        "Children",
+        "Public Policy"
+      ],
+      "keywords": [
+        "children",
+        "social development",
+        "national action plan",
+        "well-being"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": true,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7906",
+      "sourceNote": "Veritas record for the Third Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-04",
+      "meetingNumber": 4,
+      "date": "2026-03-03",
+      "title": "Fourth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "First Round Crop, Livestock and Fisheries Assessment Report",
+      "summary": "Cabinet received the First Round Crop, Livestock and Fisheries Assessment, covering agricultural production and national food-security indicators.",
+      "categories": [
+        "Agriculture",
+        "Livestock",
+        "Fisheries",
+        "Food Security"
+      ],
+      "keywords": [
+        "crop assessment",
+        "livestock",
+        "fisheries",
+        "food security",
+        "agriculture"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": true,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7900",
+      "sourceNote": "The Veritas page title is misdated, but the page text states the Fourth Cabinet Meeting was held on 3 March 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-05",
+      "meetingNumber": 5,
+      "date": "2026-03-10",
+      "title": "Fifth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "2026 Winter Production Plan",
+      "summary": "Cabinet approved the 2026 Winter Production Plan, including wheat, Irish potato and barley production within the national agricultural strategy.",
+      "categories": [
+        "Agriculture",
+        "Food Security",
+        "Crop Production"
+      ],
+      "keywords": [
+        "winter production",
+        "wheat",
+        "barley",
+        "potatoes",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7907",
+      "sourceNote": "Veritas record for the Fifth Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-06",
+      "meetingNumber": 6,
+      "date": "2026-03-17",
+      "title": "Sixth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Review of licences, permits, levies and fees in agriculture",
+      "summary": "Cabinet approved a review of licences, permits, levies and fees across crops, horticulture, fisheries and fertiliser subsectors to reduce the cost of doing business.",
+      "categories": [
+        "Agriculture",
+        "Fisheries",
+        "Regulation",
+        "Business Reform"
+      ],
+      "keywords": [
+        "licences",
+        "permits",
+        "levies",
+        "fisheries",
+        "fertiliser",
+        "agriculture"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7908",
+      "sourceNote": "Veritas record for the Sixth Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-07",
+      "meetingNumber": 7,
+      "date": "2026-03-24",
+      "title": "Seventh Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Update on tobacco production and marketing",
+      "summary": "Cabinet considered an update on tobacco production and marketing.",
+      "categories": [
+        "Agriculture",
+        "Tobacco",
+        "Markets"
+      ],
+      "keywords": [
+        "tobacco",
+        "production",
+        "marketing",
+        "agriculture"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7940",
+      "sourceNote": "Veritas record for the Seventh Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-08",
+      "meetingNumber": 8,
+      "date": "2026-03-31",
+      "title": "Eighth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Summer 2025/2026 and Winter 2026 crops update",
+      "summary": "Cabinet received an update on the 2025/2026 summer season and 2026 winter crop programme.",
+      "categories": [
+        "Agriculture",
+        "Crop Production",
+        "Food Security"
+      ],
+      "keywords": [
+        "summer crops",
+        "winter crops",
+        "agriculture",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/archives/202603",
+      "sourceNote": "Veritas March 2026 archive contains the Eighth Cabinet Meeting record."
+    },
+    {
+      "id": "ZW-CAB-2026-09",
+      "meetingNumber": 9,
+      "date": "2026-04-07",
+      "title": "Ninth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "National Formalisation Strategy",
+      "summary": "Cabinet approved the National Formalisation Strategy addressing transition from informal to formal economic activity.",
+      "categories": [
+        "Economy",
+        "Formalisation",
+        "Social Development"
+      ],
+      "keywords": [
+        "formalisation",
+        "informal economy",
+        "business",
+        "social development"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/archives/202604",
+      "sourceNote": "Veritas April 2026 archive contains the Ninth Cabinet Meeting record."
+    },
+    {
+      "id": "ZW-CAB-2026-10",
+      "meetingNumber": 10,
+      "date": "2026-04-14",
+      "title": "Tenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Minerals value chain: mining to beneficiation, industrialisation and exportation",
+      "summary": "Cabinet approved a minerals value-chain framework linking mining, beneficiation, industrialisation and exports.",
+      "categories": [
+        "Mining",
+        "Industry",
+        "Trade",
+        "Economic Development"
+      ],
+      "keywords": [
+        "mining",
+        "beneficiation",
+        "industrialisation",
+        "exports",
+        "minerals"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7943",
+      "sourceNote": "Veritas record for the Tenth Cabinet Meeting of 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-11",
+      "meetingNumber": 11,
+      "date": "2026-04-21",
+      "title": "Eleventh Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Second Round Crop, Livestock and Fisheries Assessment and cotton remedial measures",
+      "summary": "Cabinet considered the Second Round Crop, Livestock and Fisheries Assessment and remedial measures affecting cotton production.",
+      "categories": [
+        "Agriculture",
+        "Livestock",
+        "Fisheries",
+        "Food Security"
+      ],
+      "keywords": [
+        "crop assessment",
+        "livestock",
+        "fisheries",
+        "cotton",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": true,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/archives/202604",
+      "sourceNote": "The Veritas listing title contains a month typo, while the record text states 21 April 2026."
+    },
+    {
+      "id": "ZW-CAB-2026-12",
+      "meetingNumber": 12,
+      "date": "2026-04-28",
+      "title": "Twelfth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "2025/2026 summer crops marketing and 2026 winter crops production plan",
+      "summary": "Cabinet reviewed summer crop marketing and the 2026 winter crop production plan.",
+      "categories": [
+        "Agriculture",
+        "Crop Marketing",
+        "Food Security"
+      ],
+      "keywords": [
+        "summer crops",
+        "marketing",
+        "winter crops",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/archives/202604",
+      "sourceNote": "Veritas April 2026 archive contains the Twelfth Cabinet Meeting record."
+    },
+    {
+      "id": "ZW-CAB-2026-13",
+      "meetingNumber": 13,
+      "date": "2026-05-05",
+      "title": "Thirteenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Review of licences, permits, levies and fees in the mining sector",
+      "summary": "Cabinet reviewed mining-sector licences, permits, levies and fees as part of wider business reforms.",
+      "categories": [
+        "Mining",
+        "Regulation",
+        "Business Reform"
+      ],
+      "keywords": [
+        "mining",
+        "licences",
+        "permits",
+        "levies",
+        "fees"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/sites/veritas_d/files/THIRTEENTH%20POST-CABINET%20PRESS%20BRIEFING%202026.pdf",
+      "sourceNote": "Direct Veritas PDF for the Thirteenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-14",
+      "meetingNumber": 14,
+      "date": "2026-05-12",
+      "title": "Fourteenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Summer crops marketing, winter production and agricultural impacts of El Niño",
+      "summary": "Cabinet considered crop marketing, winter production and historical agricultural impacts of El Niño.",
+      "categories": [
+        "Agriculture",
+        "Climate",
+        "Food Security"
+      ],
+      "keywords": [
+        "El Niño",
+        "summer crops",
+        "winter production",
+        "climate",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/taxonomy/term/1016",
+      "sourceNote": "Veritas Decision Matrix listing for the Fourteenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-15",
+      "meetingNumber": 15,
+      "date": "2026-05-19",
+      "title": "Fifteenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Update on the National Drug and Substance Abuse Response",
+      "summary": "Cabinet approved an update on the national response to drug and substance abuse.",
+      "categories": [
+        "Public Health",
+        "Social Development",
+        "Drug Policy"
+      ],
+      "keywords": [
+        "drug abuse",
+        "substance abuse",
+        "public health",
+        "social development"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": true,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7994",
+      "sourceNote": "Veritas record for the Fifteenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-16",
+      "meetingNumber": 16,
+      "date": "2026-05-26",
+      "title": "Sixteenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Summer crops marketing, winter production and irrigation insights",
+      "summary": "Cabinet reviewed summer crop marketing, winter production and mechanisation and irrigation insights, noting a positive national food-security outlook.",
+      "categories": [
+        "Agriculture",
+        "Irrigation",
+        "Food Security",
+        "Mechanisation"
+      ],
+      "keywords": [
+        "summer crops",
+        "winter production",
+        "irrigation",
+        "mechanisation",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": true,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/sites/veritas_d/files/2026%2016TH%20POST%20CABINET%20BRIEF%20COMBINED.pdf",
+      "sourceNote": "Direct Veritas PDF for the Sixteenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-17",
+      "meetingNumber": 17,
+      "date": "2026-06-02",
+      "title": "Seventeenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Proposed National Youth Policy",
+      "summary": "Cabinet approved the National Youth Policy.",
+      "categories": [
+        "Youth",
+        "Social Development",
+        "Public Policy"
+      ],
+      "keywords": [
+        "youth policy",
+        "skills",
+        "social development"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/7998",
+      "sourceNote": "Veritas record for the Seventeenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-18",
+      "meetingNumber": 18,
+      "date": "2026-06-09",
+      "title": "Eighteenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Update on 2025/2026 summer marketing and 2026 winter plan",
+      "summary": "Cabinet reviewed summer crop marketing and the 2026 winter production plan.",
+      "categories": [
+        "Agriculture",
+        "Crop Marketing",
+        "Food Security"
+      ],
+      "keywords": [
+        "summer marketing",
+        "winter production",
+        "agriculture",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/taxonomy/term/1017",
+      "sourceNote": "Veritas Cabinet listing for the Eighteenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-19",
+      "meetingNumber": 19,
+      "date": "2026-06-16",
+      "title": "Nineteenth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "End-of-cycle report on implementation of priority projects for the 1st 100-Day Cycle of 2026",
+      "summary": "Cabinet reviewed implementation progress for priority projects in the first 100-Day Cycle of 2026.",
+      "categories": [
+        "Government Performance",
+        "Infrastructure",
+        "Public Administration"
+      ],
+      "keywords": [
+        "100-day cycle",
+        "priority projects",
+        "implementation",
+        "government performance"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/taxonomy/term/1017",
+      "sourceNote": "Veritas Cabinet listing for the Nineteenth Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-20",
+      "meetingNumber": 20,
+      "date": "2026-06-23",
+      "title": "Twentieth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Summer crops marketing and 2026 winter crops production plan",
+      "summary": "Cabinet reviewed summer crop marketing and winter production, including grain stocks and farmer payment arrangements; it also approved the Zimbabwe Sugarcane Industry Development Plan 2026-2035.",
+      "categories": [
+        "Agriculture",
+        "Food Security",
+        "Sugarcane",
+        "Grain Marketing"
+      ],
+      "keywords": [
+        "grain marketing",
+        "winter crops",
+        "sugarcane",
+        "ethanol",
+        "food security",
+        "farmer payments"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "The Herald / ZBC News",
+      "sourceUrl": "https://www.heraldonline.co.zw/cabinet-approves-heroes-day-defence-forces-programme/",
+      "sourceNote": "The Veritas index appears to omit Meeting 20; this record is supported by the 20th post-Cabinet briefing reproduced by The Herald and contemporaneous ZBC reporting."
+    },
+    {
+      "id": "ZW-CAB-2026-21",
+      "meetingNumber": 21,
+      "date": "2026-06-30",
+      "title": "Twenty-First Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Nutrition Financing Strategy",
+      "summary": "Cabinet approved the Nutrition Financing Strategy under the Cabinet Committee on Food Security and Nutrition.",
+      "categories": [
+        "Nutrition",
+        "Food Security",
+        "Public Health",
+        "Finance"
+      ],
+      "keywords": [
+        "nutrition",
+        "financing",
+        "food security",
+        "public health"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": true,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": true,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/8033",
+      "sourceNote": "Veritas record for the Twenty-First Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-22",
+      "meetingNumber": 22,
+      "date": "2026-07-07",
+      "title": "Twenty-Second Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "2025/2026 summer crops marketing and 2026 winter crops production plan",
+      "summary": "Cabinet reviewed the summer crops marketing programme and the 2026 winter crops production plan.",
+      "categories": [
+        "Agriculture",
+        "Food Security",
+        "Crop Marketing"
+      ],
+      "keywords": [
+        "summer crops",
+        "winter crops",
+        "marketing",
+        "food security"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": true,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://veritaszim.net/node/8034",
+      "sourceNote": "Veritas record for the Twenty-Second Cabinet Meeting."
+    },
+    {
+      "id": "ZW-CAB-2026-23",
+      "meetingNumber": 23,
+      "date": "2026-07-14",
+      "title": "Twenty-Third Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Repatriation and reintegration of Zimbabwean nationals from South Africa",
+      "summary": "Cabinet reviewed arrangements for repatriation and reintegration of Zimbabwean nationals returning from South Africa.",
+      "categories": [
+        "Migration",
+        "Social Protection",
+        "Disaster Management"
+      ],
+      "keywords": [
+        "repatriation",
+        "reintegration",
+        "South Africa",
+        "migration",
+        "social protection"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": true,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/archives/202607",
+      "sourceNote": "Veritas July archive contains a correctly labelled Meeting 23 entry and a duplicate/mislabelled entry."
+    },
+    {
+      "id": "ZW-CAB-2026-24",
+      "meetingNumber": 24,
+      "date": "2026-07-21",
+      "title": "Twenty-Fourth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Repatriation and reintegration of Zimbabwean nationals returning from South Africa",
+      "summary": "Cabinet received a further update on repatriation and reintegration of Zimbabwean nationals returning from South Africa.",
+      "categories": [
+        "Migration",
+        "Social Protection",
+        "Disaster Management"
+      ],
+      "keywords": [
+        "repatriation",
+        "reintegration",
+        "South Africa",
+        "migration"
+      ],
+      "agricultureRelevant": false,
+      "publicHealthRelevant": true,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": false,
+      "environmentRelevant": false,
+      "sourceName": "Veritas Zimbabwe",
+      "sourceUrl": "https://www.veritaszim.net/node/8038",
+      "sourceNote": "Veritas record for the Twenty-Fourth Cabinet Meeting."
+    }
+  ]
 }
