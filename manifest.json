@@ -1,7 +1,7 @@
 {
   "feedVersion": "1.0",
   "country": "Zimbabwe",
-  "updatedAt": "2026-08-28T21:24:00Z",
+  "updatedAt": "2026-08-28T22:31:00Z",
   "datasets": {
     "cabinet": {
       "status": "connected",
@@ -37,10 +37,10 @@
     },
     "animalHealth": {
       "status": "connected_partial",
-      "version": 2,
+      "version": 3,
       "schemaVersion": 2,
-      "recordCount": 3,
-      "updatedAt": "2026-08-28T10:50:00Z",
+      "recordCount": 4,
+      "updatedAt": "2026-08-28T22:29:00Z",
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/events.json"
     },
     "health": {
