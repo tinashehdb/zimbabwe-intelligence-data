@@ -1,7 +1,144 @@
 {
-  "feedVersion": "1.0",
+  "feedVersion": "1.1",
+  "schemaVersion": 2,
   "countryFocus": "Zimbabwe",
-  "status": "not_connected",
-  "updatedAt": null,
-  "events": []
+  "status": "connected_partial",
+  "updatedAt": "2026-08-28T10:50:00Z",
+  "recordCount": 3,
+  "dataQuality": {
+    "scope": "Verified public official-source intelligence snapshot",
+    "limitations": "This is not a complete national outbreak line list and must not be interpreted as proof that no other events exist.",
+    "principles": [
+      "unknown is not treated as zero",
+      "surveillance updates are not labelled as outbreaks unless the source confirms an outbreak",
+      "country-level programme information is kept separate from event-level disease reports",
+      "each record retains source provenance"
+    ]
+  },
+  "events": [
+    {
+      "id": "ZW-AH-RABIES-PROGRAMME-2026",
+      "eventType": "official_control_programme",
+      "disease": "Rabies",
+      "diseaseCode": "RABIES",
+      "status": "endorsed",
+      "outbreakStatus": "not_applicable",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": ["dog", "human", "domestic animals", "wildlife"],
+      "eventDate": "2026",
+      "reportedAt": "2026-06-01T00:00:00Z",
+      "summary": "WOAH endorsed Zimbabwe's official control programme for dog-mediated rabies in 2026. The endorsement recognises the national control programme; it does not mean Zimbabwe is free from rabies.",
+      "zoonotic": true,
+      "transboundary": true,
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH)",
+      "sourceType": "official_international",
+      "sourceTitle": "Rabies - WOAH / 93rd General Session 2026",
+      "sourceUrl": "https://www.woah.org/en/disease/rabies/",
+      "secondarySourceUrl": "https://www.woah.org/app/uploads/2026/06/93gs-2026-final-report-en.pdf",
+      "confidence": "high",
+      "notes": "WOAH listed Zimbabwe among Members with an endorsed official control programme for dog-mediated rabies according to Resolution No. 27 of the 93rd General Session in May 2026."
+    },
+    {
+      "id": "ZW-AH-RABIES-EPIDEMIOLOGY-AHG-2026",
+      "eventType": "epidemiology_status",
+      "disease": "Rabies",
+      "diseaseCode": "RABIES",
+      "status": "surveillance_and_control_active",
+      "outbreakStatus": "not_asserted",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": ["dog", "human", "domestic animals", "wildlife"],
+      "eventDate": "2018-2024",
+      "reportedAt": "2026-03-01T00:00:00Z",
+      "summary": "WOAH's evaluation of Zimbabwe's dog-mediated rabies control programme reported multi-year surveillance data, including 1,625 animal samples tested between 2018 and 2024, with a declining trend in the percentage of positive samples. Zimbabwe reported case definitions for human and animal rabies and use of IDSR/DHIS2 for related human surveillance and dog-bite reporting.",
+      "zoonotic": true,
+      "transboundary": true,
+      "metrics": {
+        "animalSamplesTested2018To2024": 1625,
+        "ibcmPilotDistricts": 12,
+        "nationalDistrictsReferenced": 62
+      },
+      "laboratory": {
+        "referenceLaboratory": "Central Veterinary Laboratory (CVL), Zimbabwe",
+        "primaryDiagnosticTest": "Direct fluorescent antibody test (DFA)",
+        "iso17025Accredited": true,
+        "reportedPositiveTurnaround": "24 hours"
+      },
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH)",
+      "sourceType": "official_international",
+      "sourceTitle": "Ad hoc Group evaluation of official control programmes for dog-mediated rabies",
+      "sourceUrl": "https://www.woah.org/app/uploads/2026/03/a-report-dmr-ahg-2025-public.pdf",
+      "confidence": "high",
+      "notes": "The source discusses historical surveillance and programme performance. It is not a 2026 outbreak count."
+    },
+    {
+      "id": "ZW-AH-HPAI-SURVEILLANCE-2026",
+      "eventType": "surveillance_update",
+      "disease": "Highly Pathogenic Avian Influenza",
+      "diseaseCode": "HPAI",
+      "status": "surveillance_ongoing",
+      "outbreakStatus": "not_asserted",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": ["poultry", "wild birds"],
+      "eventDate": "2026",
+      "reportedAt": "2026-07-01T00:00:00Z",
+      "summary": "FAO's Sub-Saharan Africa HPAI situation update reported a multisectoral HPAI situational analysis in Zimbabwe and routine government surveillance in large commercial poultry farms, with samples submitted quarterly. The update also noted gaps in surveillance capacity and practices.",
+      "zoonotic": true,
+      "transboundary": true,
+      "sourceOrganisation": "Food and Agriculture Organization of the United Nations (FAO)",
+      "sourceType": "official_international",
+      "sourceTitle": "Sub-Saharan Africa HPAI situation update",
+      "sourceUrl": "https://www.fao.org/animal-health/situation-updates/sub-saharan-africa-hpai/en",
+      "confidence": "high",
+      "notes": "The cited FAO update does not state that Zimbabwe had a confirmed HPAI outbreak in this item; therefore the feed records this as surveillance intelligence, not a confirmed outbreak."
+    }
+  ],
+  "diseaseProfiles": [
+    {
+      "diseaseCode": "RABIES",
+      "name": "Rabies",
+      "zoonotic": true,
+      "priorityTheme": "One Health",
+      "primaryReservoirOrSource": "Dogs are the principal source of human dog-mediated rabies transmission",
+      "nationalContext": "Zimbabwe has a WOAH-endorsed official control programme for dog-mediated rabies."
+    },
+    {
+      "diseaseCode": "ANTHRAX",
+      "name": "Anthrax",
+      "zoonotic": true,
+      "priorityTheme": "One Health",
+      "primaryReservoirOrSource": "Bacillus anthracis spores in contaminated environments and infected herbivores",
+      "nationalContext": "Anthrax remains an important zoonotic disease for integrated veterinary and public-health surveillance in Zimbabwe."
+    },
+    {
+      "diseaseCode": "HPAI",
+      "name": "Highly Pathogenic Avian Influenza",
+      "zoonotic": true,
+      "priorityTheme": "Transboundary animal disease / One Health",
+      "primaryReservoirOrSource": "Avian influenza viruses circulating in domestic and wild bird populations",
+      "nationalContext": "Zimbabwe conducts HPAI surveillance, including routine surveillance in large commercial poultry farms."
+    }
+  ],
+  "provenance": {
+    "primarySources": [
+      "World Organisation for Animal Health (WOAH)",
+      "Food and Agriculture Organization of the United Nations (FAO)"
+    ],
+    "woahRabiesUrl": "https://www.woah.org/en/disease/rabies/",
+    "woahRabiesEvaluationUrl": "https://www.woah.org/app/uploads/2026/03/a-report-dmr-ahg-2025-public.pdf",
+    "faoHpaiUrl": "https://www.fao.org/animal-health/situation-updates/sub-saharan-africa-hpai/en",
+    "oneHealthContextUrl": "https://rr-africa.woah.org/en/news/integrated-action-for-one-health-how-zimbabwe-is-tackling-the-threat-of-zoonotic-diseases/",
+    "warning": "Always retain the distinction between confirmed outbreak reports, surveillance updates, programme status, and contextual One Health information."
+  }
 }
