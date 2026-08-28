@@ -1,10 +1,10 @@
 {
-  "feedVersion": "1.1",
+  "feedVersion": "1.2",
   "schemaVersion": 2,
   "countryFocus": "Zimbabwe",
   "status": "connected_partial",
-  "updatedAt": "2026-08-28T10:50:00Z",
-  "recordCount": 3,
+  "updatedAt": "2026-08-28T22:29:00Z",
+  "recordCount": 4,
   "dataQuality": {
     "scope": "Verified public official-source intelligence snapshot",
     "limitations": "This is not a complete national outbreak line list and must not be interpreted as proof that no other events exist.",
@@ -102,6 +102,32 @@
       "sourceUrl": "https://www.fao.org/animal-health/situation-updates/sub-saharan-africa-hpai/en",
       "confidence": "high",
       "notes": "The cited FAO update does not state that Zimbabwe had a confirmed HPAI outbreak in this item; therefore the feed records this as surveillance intelligence, not a confirmed outbreak."
+    },
+    {
+      "id": "ZW-AH-FMD-SAT1-WOAH-2026",
+      "eventType": "official_disease_notification",
+      "disease": "Foot-and-mouth disease",
+      "diseaseCode": "FMD",
+      "serotype": "SAT 1",
+      "status": "reported_to_woah",
+      "outbreakStatus": "confirmed_reported_presence",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": ["cattle", "domestic cloven-hoofed animals", "susceptible wildlife"],
+      "eventDate": "2026",
+      "reportedAt": "2026-08-28T00:00:00Z",
+      "summary": "WOAH reported that new foot-and-mouth disease SAT 1 notifications were submitted by Zimbabwe during 2026 as part of a wider southern African spread of the serotype. WOAH's regional situation map was current to 26 August 2026. The cited article does not provide Zimbabwe-specific outbreak counts or localities, so those fields remain unknown rather than being inferred.",
+      "zoonotic": false,
+      "transboundary": true,
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH)",
+      "sourceType": "official_international",
+      "sourceTitle": "The spread of FMD to new areas is concerning, but consequences could be worse",
+      "sourceUrl": "https://www.woah.org/en/article/the-spread-of-fmd-to-new-areas-is-concerning-but-consequences-could-be-worse/",
+      "confidence": "high",
+      "notes": "WOAH stated that since early 2026 new FMD notifications were submitted by Botswana, Eswatini, Lesotho, Zambia and Zimbabwe. The source supports current reported FMD SAT 1 activity in Zimbabwe but does not provide a Zimbabwe-specific line list, counts or locality breakdown."
     }
   ],
   "diseaseProfiles": [
@@ -128,6 +154,14 @@
       "priorityTheme": "Transboundary animal disease / One Health",
       "primaryReservoirOrSource": "Avian influenza viruses circulating in domestic and wild bird populations",
       "nationalContext": "Zimbabwe conducts HPAI surveillance, including routine surveillance in large commercial poultry farms."
+    },
+    {
+      "diseaseCode": "FMD",
+      "name": "Foot-and-mouth disease",
+      "zoonotic": false,
+      "priorityTheme": "Transboundary animal disease",
+      "primaryReservoirOrSource": "FMD virus circulating among susceptible cloven-hoofed domestic animals and wildlife",
+      "nationalContext": "WOAH reported new FMD SAT 1 notifications from Zimbabwe during 2026 as part of wider regional activity in southern Africa."
     }
   ],
   "provenance": {
@@ -138,6 +172,7 @@
     "woahRabiesUrl": "https://www.woah.org/en/disease/rabies/",
     "woahRabiesEvaluationUrl": "https://www.woah.org/app/uploads/2026/03/a-report-dmr-ahg-2025-public.pdf",
     "faoHpaiUrl": "https://www.fao.org/animal-health/situation-updates/sub-saharan-africa-hpai/en",
+    "woahFmdUrl": "https://www.woah.org/en/article/the-spread-of-fmd-to-new-areas-is-concerning-but-consequences-could-be-worse/",
     "oneHealthContextUrl": "https://rr-africa.woah.org/en/news/integrated-action-for-one-health-how-zimbabwe-is-tackling-the-threat-of-zoonotic-diseases/",
     "warning": "Always retain the distinction between confirmed outbreak reports, surveillance updates, programme status, and contextual One Health information."
   }
