@@ -1,7 +1,7 @@
 {
   "feedVersion": "1.0",
   "country": "Zimbabwe",
-  "updatedAt": "2026-08-28T21:22:00Z",
+  "updatedAt": "2026-08-28T21:24:00Z",
   "datasets": {
     "cabinet": {
       "status": "connected",
@@ -29,10 +29,10 @@
     },
     "tenders": {
       "status": "connected_partial",
-      "version": 2,
+      "version": 3,
       "schemaVersion": 2,
-      "recordCount": 23,
-      "snapshotAsOf": "2026-08-27T16:44:00+02:00",
+      "recordCount": 36,
+      "snapshotAsOf": "2026-08-28T23:20:00+02:00",
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/tenders/tenders.json"
     },
     "animalHealth": {
