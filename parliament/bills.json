@@ -1,141 +1,29 @@
 {
-  "feedVersion": "1.0",
+  "feedVersion": "1.1",
   "source": "Parliament of Zimbabwe",
   "sourceUrl": "https://e-portal.parlzim.gov.zw/bill-statuses",
-  "status": "connected",
-  "completeness": "partial_snapshot",
+  "status": "connected_partial",
+  "completeness": "verified_snapshot_portal_temporarily_unavailable",
   "sourceReportedTotal": 18,
   "recordCount": 16,
-  "updatedAt": "2026-08-28T21:20:00Z",
-  "note": "Verified partial snapshot. The official Parliament bill-status portal reports 18 records. Sixteen records have now been independently retrieved and verified. Two additional records remain unavailable from the retrievable first-page snapshot and will be added only after they can be verified.",
+  "updatedAt": "2026-09-02T09:29:00Z",
+  "note": "Refresh attempted on 2 September 2026. The official Parliament bill-status portal was temporarily returning an internal server error, so no unverified bill records or status changes were introduced. The 16 previously verified records are retained; two source-reported records remain pending independent verification.",
   "bills": [
-    {
-      "id": "ZW-PARL-HB-32",
-      "title": "Public Finance mgt amendment Bill Final",
-      "ministry": "Ministry of Finance",
-      "billNumber": "HB-32",
-      "status": null,
-      "gazetted": null
-    },
-    {
-      "id": "ZW-PARL-HB-9-2024",
-      "title": "State Service (Pensions)",
-      "ministry": "Public Service, Labour and Social Welfare",
-      "billNumber": "H.B. 9, 2024",
-      "status": "Committee Stage-Adverse Report from the Parliamentary Legal Committee 04/09/2025",
-      "gazetted": "2024-12-06"
-    },
-    {
-      "id": "ZW-PARL-HB-1-2025",
-      "title": "Mines and Minerals",
-      "ministry": "Mines and Mining Development",
-      "billNumber": "H. B. 1, 2025",
-      "status": "Committee Stage-Adverse Report from the Parliamentary Legal Committee 09/10/2025",
-      "gazetted": "2025-06-25"
-    },
-    {
-      "id": "ZW-PARL-HB-2-2025",
-      "title": "Public Procurement and Disposal of Public Assets Amendment",
-      "ministry": "Office of the Vice President",
-      "billNumber": "H.B.2, 2025",
-      "status": "Second Reading in the National Assembly 27/11/2025",
-      "gazetted": "2025-06-06"
-    },
-    {
-      "id": "ZW-PARL-HB-4A-2025",
-      "title": "Zimbabwe School Examinations Council Amendment",
-      "ministry": "Primary and Secondary Education",
-      "billNumber": "H.B.4A, 2025",
-      "status": "Transmitted to the Office of President and Cabinet for assent (Act No. 4, 2026) 16/06/2026",
-      "gazetted": "2025-06-06"
-    },
-    {
-      "id": "ZW-PARL-HB-5A-2025",
-      "title": "Climate Change Management",
-      "ministry": "Environment, Climate and Wildlife",
-      "billNumber": "H.B.5A, 2025",
-      "status": "Second Reading in the Senate 14/07/2026",
-      "gazetted": "2025-08-29"
-    },
-    {
-      "id": "ZW-PARL-HB-6-2025",
-      "title": "Occupational Safety and",
-      "ministry": "Health Public Service and Social Welfare",
-      "billNumber": "H.B. 6,2025",
-      "status": "Second Reading in the Senate 25/03/2026",
-      "gazetted": "2025-08-08"
-    },
-    {
-      "id": "ZW-PARL-HB-7A-2025",
-      "title": "Tourism",
-      "ministry": "Tourism and Hospitality Industry",
-      "billNumber": "H.B.7A, 2025",
-      "status": "Act Proofs Transmitted to Counsel to Parliament (Act No. 5, 2026) 01/07/2026",
-      "gazetted": "2025-07-18"
-    },
-    {
-      "id": "ZW-PARL-HB-8-2025",
-      "title": "Public Service (Amendment)",
-      "ministry": "Public Service and Social Welfare",
-      "billNumber": "H.B.8, 2025",
-      "status": "Committee Stage-Adverse Report from the Parliamentary Legal Committee 19/11/2025",
-      "gazetted": "2025-08-01"
-    },
-    {
-      "id": "ZW-PARL-HB-9-2025",
-      "title": "Biological and Toxin Weapons Crimes",
-      "ministry": "Defence",
-      "billNumber": "H.B.9, 2025",
-      "status": "Committee Stage in the National Assembly 16/07/2026",
-      "gazetted": "2025-12-12"
-    },
-    {
-      "id": "ZW-PARL-HB-10-2025",
-      "title": "Postal and Telecommunications Amendment",
-      "ministry": "Information, Communication, Postal and Courier Services",
-      "billNumber": "H.B.10, 2025",
-      "status": "Notice of Presentation of Bill Transmitted to the Ministry. House Copies Ready 20/10/2025",
-      "gazetted": "2025-10-10"
-    },
-    {
-      "id": "ZW-PARL-HB-11-2025",
-      "title": "Police Amendment",
-      "ministry": "Home Affairs and Cultural Heritage",
-      "billNumber": "H.B.11,2025",
-      "status": "Second Reading in the National Assembly 02/06/2026",
-      "gazetted": "2025-10-10"
-    },
-    {
-      "id": "ZW-PARL-HB-12-2025",
-      "title": "National Drug, Substance Abuse Control and Enforcement Agency",
-      "ministry": "Home Affairs and Cultural Heritage",
-      "billNumber": "H.B.12,2025",
-      "status": "Referred to Parliamentary Legal Committee 28/04/2026",
-      "gazetted": "2025-10-10"
-    },
-    {
-      "id": "ZW-PARL-HB-1-2026",
-      "title": "Constitution of Zimbabwe Amendment (No. 3)",
-      "ministry": "Justice, Legal and Parliamentary Affairs",
-      "billNumber": "H.B. 1, 2026",
-      "status": "Published as Constitution of Zimbabwe (Amendment) Act (No. 3), Act No. 6 of 2026, on 07/07/2026",
-      "gazetted": "2026-02-16"
-    },
-    {
-      "id": "ZW-PARL-HB-2-2026",
-      "title": "Deposit Protection Corporation Amendment Bill.",
-      "ministry": "Finance, Economic Development and Investment Promotion.",
-      "billNumber": "H.B.2, 2026",
-      "status": "Referred to Parliamentary Legal Committee 09/06/2026",
-      "gazetted": "2026-05-22"
-    },
-    {
-      "id": "ZW-PARL-HB-4-2026",
-      "title": "Whistle Blowers and Witness Protection",
-      "ministry": "Justice, Legal and Parliamentary Affairs",
-      "billNumber": "H.B. 4, 2026",
-      "status": "Referred to Parliamentary Legal Committee 09/06/2026",
-      "gazetted": "2026-05-22"
-    }
+    {"id":"ZW-PARL-HB-32","title":"Public Finance mgt amendment Bill Final","ministry":"Ministry of Finance","billNumber":"HB-32","status":null,"gazetted":null},
+    {"id":"ZW-PARL-HB-9-2024","title":"State Service (Pensions)","ministry":"Public Service, Labour and Social Welfare","billNumber":"H.B. 9, 2024","status":"Committee Stage-Adverse Report from the Parliamentary Legal Committee 04/09/2025","gazetted":"2024-12-06"},
+    {"id":"ZW-PARL-HB-1-2025","title":"Mines and Minerals","ministry":"Mines and Mining Development","billNumber":"H. B. 1, 2025","status":"Committee Stage-Adverse Report from the Parliamentary Legal Committee 09/10/2025","gazetted":"2025-06-25"},
+    {"id":"ZW-PARL-HB-2-2025","title":"Public Procurement and Disposal of Public Assets Amendment","ministry":"Office of the Vice President","billNumber":"H.B.2, 2025","status":"Second Reading in the National Assembly 27/11/2025","gazetted":"2025-06-06"},
+    {"id":"ZW-PARL-HB-4A-2025","title":"Zimbabwe School Examinations Council Amendment","ministry":"Primary and Secondary Education","billNumber":"H.B.4A, 2025","status":"Transmitted to the Office of President and Cabinet for assent (Act No. 4, 2026) 16/06/2026","gazetted":"2025-06-06"},
+    {"id":"ZW-PARL-HB-5A-2025","title":"Climate Change Management","ministry":"Environment, Climate and Wildlife","billNumber":"H.B.5A, 2025","status":"Second Reading in the Senate 14/07/2026","gazetted":"2025-08-29"},
+    {"id":"ZW-PARL-HB-6-2025","title":"Occupational Safety and","ministry":"Health Public Service and Social Welfare","billNumber":"H.B. 6,2025","status":"Second Reading in the Senate 25/03/2026","gazetted":"2025-08-08"},
+    {"id":"ZW-PARL-HB-7A-2025","title":"Tourism","ministry":"Tourism and Hospitality Industry","billNumber":"H.B.7A, 2025","status":"Act Proofs Transmitted to Counsel to Parliament (Act No. 5, 2026) 01/07/2026","gazetted":"2025-07-18"},
+    {"id":"ZW-PARL-HB-8-2025","title":"Public Service (Amendment)","ministry":"Public Service and Social Welfare","billNumber":"H.B.8, 2025","status":"Committee Stage-Adverse Report from the Parliamentary Legal Committee 19/11/2025","gazetted":"2025-08-01"},
+    {"id":"ZW-PARL-HB-9-2025","title":"Biological and Toxin Weapons Crimes","ministry":"Defence","billNumber":"H.B.9, 2025","status":"Committee Stage in the National Assembly 16/07/2026","gazetted":"2025-12-12"},
+    {"id":"ZW-PARL-HB-10-2025","title":"Postal and Telecommunications Amendment","ministry":"Information, Communication, Postal and Courier Services","billNumber":"H.B.10, 2025","status":"Notice of Presentation of Bill Transmitted to the Ministry. House Copies Ready 20/10/2025","gazetted":"2025-10-10"},
+    {"id":"ZW-PARL-HB-11-2025","title":"Police Amendment","ministry":"Home Affairs and Cultural Heritage","billNumber":"H.B.11,2025","status":"Second Reading in the National Assembly 02/06/2026","gazetted":"2025-10-10"},
+    {"id":"ZW-PARL-HB-12-2025","title":"National Drug, Substance Abuse Control and Enforcement Agency","ministry":"Home Affairs and Cultural Heritage","billNumber":"H.B.12,2025","status":"Referred to Parliamentary Legal Committee 28/04/2026","gazetted":"2025-10-10"},
+    {"id":"ZW-PARL-HB-1-2026","title":"Constitution of Zimbabwe Amendment (No. 3)","ministry":"Justice, Legal and Parliamentary Affairs","billNumber":"H.B. 1, 2026","status":"Published as Constitution of Zimbabwe (Amendment) Act (No. 3), Act No. 6 of 2026, on 07/07/2026","gazetted":"2026-02-16"},
+    {"id":"ZW-PARL-HB-2-2026","title":"Deposit Protection Corporation Amendment Bill.","ministry":"Finance, Economic Development and Investment Promotion.","billNumber":"H.B.2, 2026","status":"Referred to Parliamentary Legal Committee 09/06/2026","gazetted":"2026-05-22"},
+    {"id":"ZW-PARL-HB-4-2026","title":"Whistle Blowers and Witness Protection","ministry":"Justice, Legal and Parliamentary Affairs","billNumber":"H.B. 4, 2026","status":"Referred to Parliamentary Legal Committee 09/06/2026","gazetted":"2026-05-22"}
   ]
 }
