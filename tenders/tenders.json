@@ -5,32 +5,344 @@
   "sourceUrl": "https://egp.praz.org.zw/",
   "status": "connected_partial",
   "completeness": "curated_current_snapshot",
-  "updatedAt": "2026-09-02T09:26:00Z",
-  "snapshotAsOf": "2026-09-02T11:26:00+02:00",
-  "recordCount": 15,
-  "note": "Refreshed curated snapshot of verified PRAZ eGP opportunities. The feed prioritises recently published and still-relevant tenders rather than mirroring all live opportunities. Items whose closing time had passed by the snapshot time are marked closed. Always verify final status and bid documents on the official eGP portal.",
+  "updatedAt": "2026-09-04T00:00:00Z",
+  "snapshotAsOf": "2026-09-04T00:00:00+02:00",
+  "recordCount": 20,
+  "note": "Refreshed on 4 September 2026 from the official PRAZ eGP latest-tenders page. This is a curated snapshot of 20 current portal records; the portal reported 900 records at retrieval, so this is not a complete mirror. Portal statuses and closing times can change; verify the official tender record before acting.",
   "tenders": [
-    {"id":"PRAZ-102153","tenderId":102153,"referenceNumber":"20173333","title":"SUPPLY AND DELIVERY OF LAPTOPS","categoryCodes":["GC006"],"categoryName":"Computers, Printers, Photocopiers, Networking Equipment and Accessories","procuringEntity":"ZIMBABWE POWER COMPANY","scope":"Open","publishDate":"2026-08-31T17:26:00+02:00","closingDate":"2026-09-03T10:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/102153"},
-    {"id":"PRAZ-102103","tenderId":102103,"referenceNumber":"30039781","title":"HYBRID AND ELECTRIC VEHICLE (EV) TRAINING","categoryCodes":["GE001","GM003","SI002","SL005"],"categoryName":"Electrical Products; Motor Vehicle Spares; Electrical Equipment Installation and Maintenance; Light Motor Vehicle Maintenance","procuringEntity":"ZESA ENTERPRISES","scope":"Open","publishDate":"2026-08-31T18:00:00+02:00","closingDate":"2026-09-03T10:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/102103"},
-    {"id":"PRAZ-101970","tenderId":101970,"referenceNumber":"VRDC/2026/71","title":"PROCUREMENT OF REPAIR OF PRINTER Laser PRO Mfp Mf26dw","categoryCodes":["SC005"],"categoryName":"Computers, Printers & Networking Installations and General Office Equipment Maintenance & Repair Services","procuringEntity":"VUNGU RURAL DISTRICT COUNCIL","scope":"Open","publishDate":"2026-08-31T14:00:00+02:00","closingDate":"2026-09-03T10:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/101970"},
-    {"id":"PRAZ-101969","tenderId":101969,"referenceNumber":"HEM 067","title":"SUPPLY AND DELIVERY OF COMEN PATIENT MONITOR FINGER SENSOR","categoryCodes":["GM002"],"categoryName":"Medical and Laboratory Equipment, Products, Spares, Consumables and Accessories","procuringEntity":"CHITUNGWIZA CENTRAL HOSPITAL","scope":"Open","publishDate":"2026-08-31T14:00:00+02:00","closingDate":"2026-09-02T11:00:00+02:00","status":"closed","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/101969"},
-    {"id":"PRAZ-101980","tenderId":101980,"referenceNumber":"RFQ130-2026","title":"Supply and Delivery of HEM Consumables","categoryCodes":["GM002"],"categoryName":"Medical and Laboratory Equipment, Products, Spares, Consumables and Accessories","procuringEntity":"UNITED BULAWAYO HOSPITALS","scope":"Open","publishDate":"2026-08-31T13:30:00+02:00","closingDate":"2026-09-02T10:30:00+02:00","status":"closed","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/101980"},
-    {"id":"PRAZ-101979","tenderId":101979,"referenceNumber":"11002443","title":"Supply and delivery of carpentry materials","categoryCodes":["GT001","GT002"],"categoryName":"Timber and Boards; Tools and Hardware","procuringEntity":"GRAIN MARKETING BOARD","scope":"Open","publishDate":"2026-08-31T13:01:00+02:00","closingDate":"2026-09-02T11:00:00+02:00","status":"closed","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/101979"},
-    {"id":"PRAZ-101122","tenderId":101122,"referenceNumber":"ACZ/0561A/2026","title":"Supply, Delivery and Installation of Public Address (PA) System at Victoria Falls and Joshua Mqabuko Nkomo International Airports","categoryCodes":["SC005","GE001","GM005","GY002","SI002"],"categoryName":"Computer maintenance; Electrical Products; PA Systems; Aviation navigation communication and surveillance systems; Electrical Installation and Maintenance","procuringEntity":"AIRPORTS COMPANY OF ZIMBABWE","scope":"Open","publishDate":"2026-08-28T10:00:00+02:00","closingDate":"2026-09-25T11:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/101122"},
-    {"id":"PRAZ-98207","tenderId":98207,"referenceNumber":"RFQ 180/2026","title":"MUCHINJIKE CLINIC - MEDICINES RBF ZIG","categoryCodes":["GP004"],"categoryName":"Pharmaceuticals - Medical Drugs, Supplies and Consumables","procuringEntity":"MUREWA DISTRICT HOSPITAL","scope":"Open","publishDate":"2026-08-31T13:40:00+02:00","closingDate":"2026-09-02T09:00:00+02:00","status":"closed","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/98207"},
-    {"id":"PRAZ-99915","tenderId":99915,"referenceNumber":"COM/SBD50/2026","title":"SUPPLY AND DELIVERY OF WATER AND SEWER FITTINGS","categoryCodes":["SZ005"],"categoryName":"Water And Sewer Engineering and Utilities","procuringEntity":"CITY OF MUTARE","scope":"Open","publishDate":"2026-08-25T12:00:00+02:00","closingDate":"2026-09-28T12:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/99915"},
-    {"id":"PRAZ-99494","tenderId":99494,"referenceNumber":"ZETDC/FA/10/2026","title":"Procurement of Computer Consumables Using Framework Agreement and Subsequent Call-off Contracts","categoryCodes":["GC006"],"categoryName":"Computers, Printers, Photocopiers, Networking Equipment and Accessories","procuringEntity":"ZIMBABWE ELECTRICITY TRANSMISSION AND DISTRIBUTION COMPANY","scope":"Open","publishDate":"2026-08-21T19:00:00+02:00","closingDate":"2026-09-22T10:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/99494"},
-    {"id":"PRAZ-99027","tenderId":99027,"referenceNumber":"NSSA 83/2026","title":"Alternative Energy (Solar) Project for NSSA Bindura","categoryCodes":["GE001"],"categoryName":"Electrical Products, Power Back-Up Equipment, Transformers, Standby Generators and Accessories","procuringEntity":"NATIONAL SOCIAL SECURITY AUTHORITY","scope":"Open","publishDate":"2026-08-21T10:00:00+02:00","closingDate":"2026-09-18T10:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/99027"},
-    {"id":"PRAZ-96587","tenderId":96587,"referenceNumber":"COH/S.130.2026","title":"SUPPLY AND DELIVERY OF UTILITY VEHICLES","categoryCodes":["GN003"],"categoryName":"New Light Motor Vehicles","procuringEntity":"CITY OF HARARE","scope":"Open","publishDate":"2026-08-14T15:00:00+02:00","closingDate":"2026-10-09T17:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/96587"},
-    {"id":"PRAZ-96095","tenderId":96095,"referenceNumber":"ZERA COMP 28/2026","title":"Procurement of data centre storage","categoryCodes":["SC005","GC006"],"categoryName":"Computer and Networking Installations; Computer and Networking Equipment","procuringEntity":"ZIMBABWE ENERGY REGULATORY AUTHORITY","scope":"Open","publishDate":"2026-08-10T11:59:00+02:00","closingDate":"2026-09-10T16:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/96095"},
-    {"id":"PRAZ-90995","tenderId":90995,"referenceNumber":"MOTID/CAPB1","title":"SURVEY, SITING, DRILLING, INSTALLATION, AND COMMISSIONING OF SOLAR POWERED BOREHOLES","categoryCodes":["SB003"],"categoryName":"Borehole Siting, Casing, Drilling and Repairs","procuringEntity":"MINISTRY OF TRANSPORT AND INFRASTRUCTURAL DEVELOPMENT","scope":"Open","publishDate":"2026-07-24T18:00:00+02:00","closingDate":"2026-09-08T11:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/90995"},
-    {"id":"PRAZ-93522","tenderId":93522,"referenceNumber":"ZIBRDC75/26","title":"Supply and delivery of brand new grader engine","categoryCodes":["GM003","SP004"],"categoryName":"Motor Vehicle Spares; Plant and Equipment Maintenance","procuringEntity":"ZIBAGWE RURAL DISTRICT COUNCIL","scope":"Open","publishDate":"2026-07-31T12:00:00+02:00","closingDate":"2026-09-30T10:00:00+02:00","status":"open","detailUrl":"https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/93522"}
+    {
+      "id": "PRAZ-46190",
+      "tenderId": 46190,
+      "referenceNumber": "ZETDC/INTER/28/2025",
+      "title": "Supply, Delivery, Installation and Commissioning of Filabusi 30MVA 88/11 KV Transformer and Associated Bay Equipment",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-13T06:00:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/46190"
+    },
+    {
+      "id": "PRAZ-46209",
+      "tenderId": 46209,
+      "referenceNumber": "ZETDC/INTER/29/2025",
+      "title": "SUPPLY, DELIVERY,INSTALLATION AND COMMISSIONING OF VICTORIA FALLS 30MVA 88/33kV TRANSFORMER AND ASSOCIATED BAY EQUIPMENT",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-12T23:58:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/46209"
+    },
+    {
+      "id": "PRAZ-46248",
+      "tenderId": 46248,
+      "referenceNumber": "ZETDC/INTER/26/2025",
+      "title": "Supply, Delivery, Installation and Commissioning of Chertsey 175MVA 330/132KV Transformer and Associated Bay Equipment",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-12T17:00:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/46248"
+    },
+    {
+      "id": "PRAZ-46262",
+      "tenderId": 46262,
+      "referenceNumber": "ZETDC/INTER/27/2025",
+      "title": "Supply, Delivery, Installation and Commissioning of Mashava 75MVA 132/36 KV Transformer and Associated Bay Equipment",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-12T21:50:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/46262"
+    },
+    {
+      "id": "PRAZ-46296",
+      "tenderId": 46296,
+      "referenceNumber": "ZETDC/INTER/30/2025",
+      "title": "Supply, Delivery, Installation and Commissioning of Hwange 175MVA 330/33KV Transformer and Associated Bay Equipment",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-12T21:30:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/46296"
+    },
+    {
+      "id": "PRAZ-47313",
+      "tenderId": 47313,
+      "referenceNumber": "ZETDC/INTER/31/2025",
+      "title": "Supply,Delivery,Installation and Commissioning of Sherwood A 175MVA 330/132 (88) 11Kv Transformer and Associated Bay Equipment",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-19T15:43:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/47313"
+    },
+    {
+      "id": "PRAZ-47393",
+      "tenderId": 47393,
+      "referenceNumber": "ZETDC/INTER/32/2025",
+      "title": "Supply,Delivery,Installation and Commissioning of Haven 175MVA 330/132 (88)11KV Transformer and Associated Bay Equipment",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2025-12-19T18:00:00+02:00",
+      "closingDate": "2026-09-17T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/47393"
+    },
+    {
+      "id": "PRAZ-47433",
+      "tenderId": 47433,
+      "referenceNumber": "TELECOMMUNICATION SYSTEM (PABX) UPGRADE AT HWANGE",
+      "title": "TELECOMMUNICATION SYSTEM (PABX) UPGRADE AT HWANGE",
+      "categoryCodes": [
+        "SC005"
+      ],
+      "categoryName": "Computers, Printers & Networking Installations and General Office Equipment Maintenance & Repair Services",
+      "procuringEntity": "ZIMBABWE POWER COMPANY",
+      "scope": "Open",
+      "publishDate": "2026-07-02T10:46:00+02:00",
+      "closingDate": "2026-09-04T17:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/47433"
+    },
+    {
+      "id": "PRAZ-49480",
+      "tenderId": 49480,
+      "referenceNumber": "TIMB/EOI/04A/2026",
+      "title": "REQUEST FOR EXPRESSION OF INTEREST FOR THE PROVISION OF ARCHITECTURAL SERVICES FOR THE DESIGNING AND MANAGING OF THE CONSTRUCTION OF TIMB MVURWI, CHINHOYI AND KAROI OFFICES",
+      "categoryCodes": [
+        "SA002"
+      ],
+      "categoryName": "Architectural Services",
+      "procuringEntity": "TOBACCO INDUSTRY MARKETING BOARD",
+      "scope": "Open",
+      "publishDate": "2026-02-19T10:40:00+02:00",
+      "closingDate": "2026-09-07T16:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/49480"
+    },
+    {
+      "id": "PRAZ-51138",
+      "tenderId": 51138,
+      "referenceNumber": "D/ZRDC/ADMN/4/2026",
+      "title": "CONSTRUCTION OF 2X2 CLASSROOM BLOCK AT WHITECLIFF COUNCIL SCHOOL (SUPPLY & FIX)",
+      "categoryCodes": [
+        "SC006"
+      ],
+      "categoryName": "Construction and Civil Works (buildings, dams, roads etc.) (New)",
+      "procuringEntity": "ZVIMBA RURAL DISTRICT COUNCIL",
+      "scope": "Open",
+      "publishDate": "2026-03-02T15:00:00+02:00",
+      "closingDate": "2026-09-04T16:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/51138"
+    },
+    {
+      "id": "PRAZ-67552",
+      "tenderId": 67552,
+      "referenceNumber": "D/ZRDC/HSS/4/2026",
+      "title": "CONSTRUCTION OF 2 X 2 CLASSROOM BLOCKS AT RYDALE RIDGE COUNCIL SCHOOL (SUPPLY & FIX)",
+      "categoryCodes": [
+        "SC006"
+      ],
+      "categoryName": "Construction and Civil Works (buildings, dams, roads etc.) (New)",
+      "procuringEntity": "ZVIMBA RURAL DISTRICT COUNCIL",
+      "scope": "Open",
+      "publishDate": "2026-05-08T17:00:00+02:00",
+      "closingDate": "2026-09-04T16:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/67552"
+    },
+    {
+      "id": "PRAZ-75273",
+      "tenderId": 75273,
+      "referenceNumber": "ZETDC/INTER/05/2026",
+      "title": "Design, Manufacture, Supply and Delivery of Standard Transfer Specification (STS) Smart Single Phase (230V, 100A, Class 1) and Three Phase (230/400V, 120A, Class 1) Direct Connected Prepayment Meters with Remote Communication Capability, Data Concentrator Units (DCUs) and Associated Accessories",
+      "categoryCodes": [
+        "GP007"
+      ],
+      "categoryName": "Pre-paid Meters (electricty, Water etc)",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2026-06-06T00:26:00+02:00",
+      "closingDate": "2026-09-10T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/75273"
+    },
+    {
+      "id": "PRAZ-77477",
+      "tenderId": 77477,
+      "referenceNumber": "PSC/FA/271/2026",
+      "title": "Procurement of bus maintenance and repair services",
+      "categoryCodes": [
+        "SH001",
+        "SP001",
+        "SV001"
+      ],
+      "categoryName": "Heavy Vehicle Maintenance,Panel Beating,Vehicle Towing Services",
+      "procuringEntity": "PUBLIC SERVICE COMMISSION",
+      "scope": "Open",
+      "publishDate": "2026-06-12T15:00:00+02:00",
+      "closingDate": "2026-09-11T16:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/77477"
+    },
+    {
+      "id": "PRAZ-77505",
+      "tenderId": 77505,
+      "referenceNumber": "PSC/FA/146/2026",
+      "title": "Light Motor Vehicle Maintenance,Services,Repairs,Panel,Beating,Pneumatic Services,Windscreen and Towing",
+      "categoryCodes": [
+        "SV001",
+        "SL005",
+        "SP001"
+      ],
+      "categoryName": "Vehicle Towing Services,Light Motor Vehicle Maintenance,Panel Beating",
+      "procuringEntity": "PUBLIC SERVICE COMMISSION",
+      "scope": "Open",
+      "publishDate": "2026-06-12T15:00:00+02:00",
+      "closingDate": "2026-09-11T16:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/77505"
+    },
+    {
+      "id": "PRAZ-84640",
+      "tenderId": 84640,
+      "referenceNumber": "COH/HW/S.32/2026",
+      "title": "Rehabilitation of bio-filters to install stainless steel rotating assembly and arms at Firle",
+      "categoryCodes": [
+        "SI004",
+        "SM003",
+        "SI001"
+      ],
+      "categoryName": "Installation, Repair & Maintenance of Irrigation Equipment and Accessories,Mechanical and Structural Engineering (incl. steel fabrication, steel roof and coverings, machining, sewage management, dewatering, etc.),Installation Repair and Maintenance of Biogas Equipment and Appliances",
+      "procuringEntity": "CITY OF HARARE",
+      "scope": "Open",
+      "publishDate": "2026-07-16T17:00:00+02:00",
+      "closingDate": "2026-09-15T14:30:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/84640"
+    },
+    {
+      "id": "PRAZ-85029",
+      "tenderId": 85029,
+      "referenceNumber": "COG/01/07/26",
+      "title": "Supply and delivery of solar street lights",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "CITY OF GWERU",
+      "scope": "Open",
+      "publishDate": "2026-07-07T18:00:00+02:00",
+      "closingDate": "2026-09-04T23:59:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/85029"
+    },
+    {
+      "id": "PRAZ-85813",
+      "tenderId": 85813,
+      "referenceNumber": "PZL/BRI CONSTR PIP/W2026",
+      "title": "Construction of bridges/crossing points along the pipeline",
+      "categoryCodes": [
+        "SC006"
+      ],
+      "categoryName": "Construction and Civil Works (buildings, dams, roads etc.) (New)",
+      "procuringEntity": "PETROZIM LINE",
+      "scope": "Open",
+      "publishDate": "2026-07-08T18:00:00+02:00",
+      "closingDate": "2026-09-15T23:59:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/85813"
+    },
+    {
+      "id": "PRAZ-86122",
+      "tenderId": 86122,
+      "referenceNumber": "ZETDC/INTER/13/2026",
+      "title": "SUPPLY AND DELIVERY OF MV BOARDS",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2026-07-10T10:00:00+02:00",
+      "closingDate": "2026-09-08T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/86122"
+    },
+    {
+      "id": "PRAZ-86128",
+      "tenderId": 86128,
+      "referenceNumber": "ZETDC/INTER/12/2026",
+      "title": "SUPPLY & DELIVERY OF RING MAIN UNITS",
+      "categoryCodes": [
+        "GE001"
+      ],
+      "categoryName": "Electrical Products: Cables and Materials, Power Back-Up Equipment, Transformers, Standby Generators, Consumables & Accessories",
+      "procuringEntity": "ZETDC",
+      "scope": "Open",
+      "publishDate": "2026-07-10T10:00:00+02:00",
+      "closingDate": "2026-09-08T10:00:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/86128"
+    },
+    {
+      "id": "PRAZ-86757",
+      "tenderId": 86757,
+      "referenceNumber": "COG/06/07/2026",
+      "title": "Finance,supply, delivery,installation,testing and commissioning of prepaid water meters",
+      "categoryCodes": [
+        "GP007"
+      ],
+      "categoryName": "Pre-paid Meters (electricty, Water etc)",
+      "procuringEntity": "CITY OF GWERU",
+      "scope": "Open",
+      "publishDate": "2026-07-10T22:00:00+02:00",
+      "closingDate": "2026-09-08T23:59:00+02:00",
+      "status": "open",
+      "detailUrl": "https://egp.praz.org.zw/Indexes/viewLiveTenderDetails/86757"
+    }
   ],
   "provenance": {
     "officialPortal": "https://egp.praz.org.zw/",
-    "latestTendersUrl": "https://egp.praz.org.zw/index",
-    "retrievedAt": "2026-09-02T09:26:00Z",
+    "latestTendersUrl": "https://egp.praz.org.zw/egp-SW5kZXhlcy9pbmRleA==",
+    "retrievedAt": "2026-09-04T00:00:00Z",
     "publisher": "Procurement Regulatory Authority of Zimbabwe",
-    "warning": "Tender status and closing dates can change. Always verify details on the official eGP tender page before acting."
+    "warning": "Tender status and closing dates can change. Always verify details on the official eGP tender page before acting.",
+    "sourceRecordCount": 900
   }
 }
