@@ -1,22 +1,232 @@
 {
-  "feedVersion":"2.2",
-  "schemaVersion":2,
-  "countryFocus":"Zimbabwe",
-  "status":"connected_partial",
-  "updatedAt":"2026-09-02T09:29:00Z",
-  "recordCount":5,
-  "coreEventCount":5,
-  "totalAvailableRecordCount":229,
-  "weeklyReportCount":26,
-  "weeklyObservationCount":224,
-  "dataQuality":{"scope":"Verified public official-source intelligence snapshot integrating WOAH/FAO material with structured Directorate of Veterinary Services Weekly Highlights observations.","limitations":"The top-level events array contains verified core WOAH/FAO intelligence records. Weekly Highlights observations are loaded separately through weeklyHighlights.indexUrl and currently cover through 21 August 2026.","principles":["unknown is not treated as zero","surveillance updates are not labelled as outbreaks unless the source confirms an outbreak","suspected events remain labelled suspected","weekly repeated mentions are treated as time-series observations rather than automatically counted as separate outbreaks"]},
-  "events":[
-    {"id":"ZW-AH-RABIES-PROGRAMME-2026","eventType":"official_control_programme","disease":"Rabies","diseaseCode":"RABIES","status":"endorsed","outbreakStatus":"not_applicable","verificationStatus":"verified_official","country":"Zimbabwe","province":null,"district":null,"locality":null,"species":["dog","human","domestic animals","wildlife"],"eventDate":"2026","reportedAt":"2026-06-01T00:00:00Z","summary":"WOAH endorsed Zimbabwe's official control programme for dog-mediated rabies in 2026. The endorsement recognises the national control programme; it does not mean Zimbabwe is free from rabies.","zoonotic":true,"transboundary":true,"sourceOrganisation":"World Organisation for Animal Health (WOAH)","sourceType":"official_international","sourceTitle":"Rabies - WOAH / 93rd General Session 2026","sourceUrl":"https://www.woah.org/en/disease/rabies/","secondarySourceUrl":"https://www.woah.org/app/uploads/2026/06/93gs-2026-final-report-en.pdf","confidence":"high"},
-    {"id":"ZW-AH-RABIES-EPIDEMIOLOGY-AHG-2026","eventType":"epidemiology_status","disease":"Rabies","diseaseCode":"RABIES","status":"surveillance_and_control_active","outbreakStatus":"not_asserted","verificationStatus":"verified_official","country":"Zimbabwe","province":null,"district":null,"locality":null,"species":["dog","human","domestic animals","wildlife"],"eventDate":"2018-2024","reportedAt":"2026-03-01T00:00:00Z","summary":"WOAH's evaluation of Zimbabwe's dog-mediated rabies control programme reported multi-year surveillance data, including 1,625 animal samples tested between 2018 and 2024.","zoonotic":true,"transboundary":true,"sourceOrganisation":"World Organisation for Animal Health (WOAH)","sourceType":"official_international","sourceTitle":"Ad hoc Group evaluation of official control programmes for dog-mediated rabies","sourceUrl":"https://www.woah.org/app/uploads/2026/03/a-report-dmr-ahg-2025-public.pdf","confidence":"high"},
-    {"id":"ZW-AH-HPAI-SURVEILLANCE-2026","eventType":"surveillance_update","disease":"Highly Pathogenic Avian Influenza","diseaseCode":"HPAI","status":"surveillance_ongoing","outbreakStatus":"not_asserted","verificationStatus":"verified_official","country":"Zimbabwe","province":null,"district":null,"locality":null,"species":["poultry","wild birds"],"eventDate":"2026","reportedAt":"2026-07-01T00:00:00Z","summary":"FAO's Sub-Saharan Africa HPAI situation update reported multisectoral HPAI situational analysis and routine government surveillance in Zimbabwe.","zoonotic":true,"transboundary":true,"sourceOrganisation":"Food and Agriculture Organization of the United Nations (FAO)","sourceType":"official_international","sourceTitle":"Sub-Saharan Africa HPAI situation update","sourceUrl":"https://www.fao.org/animal-health/situation-updates/sub-saharan-africa-hpai/en","confidence":"high"},
-    {"id":"ZW-AH-FMD-SAT1-WOAH-2026","eventType":"official_disease_notification","disease":"Foot-and-mouth disease","diseaseCode":"FMD","serotype":"SAT 1","status":"reported_to_woah","outbreakStatus":"confirmed_reported_presence","verificationStatus":"verified_official","country":"Zimbabwe","province":null,"district":null,"locality":null,"species":["cattle","domestic cloven-hoofed animals","susceptible wildlife"],"eventDate":"2026","reportedAt":"2026-08-28T00:00:00Z","summary":"WOAH reported new foot-and-mouth disease SAT 1 notifications from Zimbabwe during 2026 as part of wider southern African activity.","zoonotic":false,"transboundary":true,"sourceOrganisation":"World Organisation for Animal Health (WOAH)","sourceType":"official_international","sourceTitle":"The spread of FMD to new areas is concerning, but consequences could be worse","sourceUrl":"https://www.woah.org/en/article/the-spread-of-fmd-to-new-areas-is-concerning-but-consequences-could-be-worse/","confidence":"high"},
-    {"id":"ZW-AH-FMD-SAT1-WAHIS-2026-01-16","eventType":"official_disease_notification_date","disease":"Foot-and-mouth disease","diseaseCode":"FMD","serotype":"SAT 1","status":"immediate_notification_listed","outbreakStatus":"confirmed_reported_presence","verificationStatus":"verified_official","country":"Zimbabwe","province":null,"district":null,"locality":null,"species":["cattle","domestic cloven-hoofed animals","susceptible wildlife"],"eventDate":"2026-01-16","reportedAt":"2026-01-16T00:00:00Z","summary":"WOAH Africa's immediate-notifications index lists Zimbabwe reporting foot-and-mouth disease serotype SAT 1 on 16 January 2026. This provides a precise official notification date complementing the broader 2026 FMD SAT 1 intelligence record.","zoonotic":false,"transboundary":true,"sourceOrganisation":"World Organisation for Animal Health (WOAH) - Africa","sourceType":"official_international","sourceTitle":"Immediate notifications in Africa","sourceUrl":"https://rr-africa.woah.org/en/immediate-notifications-in-africa/","confidence":"high"}
+  "feedVersion": "2.2",
+  "schemaVersion": 2,
+  "countryFocus": "Zimbabwe",
+  "status": "connected_partial",
+  "updatedAt": "2026-09-04T00:00:00Z",
+  "recordCount": 5,
+  "coreEventCount": 5,
+  "totalAvailableRecordCount": 229,
+  "weeklyReportCount": 26,
+  "weeklyObservationCount": 224,
+  "dataQuality": {
+    "scope": "Verified public official-source intelligence snapshot integrating WOAH/FAO material with structured Directorate of Veterinary Services Weekly Highlights observations.",
+    "limitations": "The top-level events array contains verified core WOAH/FAO intelligence records. Weekly Highlights observations are loaded separately through weeklyHighlights.indexUrl and currently cover through 21 August 2026. The official WOAH Africa immediate-notifications index was checked on 4 September 2026; no newer Zimbabwe notification was found, and no later Directorate of Veterinary Services Weekly Highlights report was added without source verification.",
+    "principles": [
+      "unknown is not treated as zero",
+      "surveillance updates are not labelled as outbreaks unless the source confirms an outbreak",
+      "suspected events remain labelled suspected",
+      "weekly repeated mentions are treated as time-series observations rather than automatically counted as separate outbreaks"
+    ]
+  },
+  "events": [
+    {
+      "id": "ZW-AH-RABIES-PROGRAMME-2026",
+      "eventType": "official_control_programme",
+      "disease": "Rabies",
+      "diseaseCode": "RABIES",
+      "status": "endorsed",
+      "outbreakStatus": "not_applicable",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": [
+        "dog",
+        "human",
+        "domestic animals",
+        "wildlife"
+      ],
+      "eventDate": "2026",
+      "reportedAt": "2026-06-01T00:00:00Z",
+      "summary": "WOAH endorsed Zimbabwe's official control programme for dog-mediated rabies in 2026. The endorsement recognises the national control programme; it does not mean Zimbabwe is free from rabies.",
+      "zoonotic": true,
+      "transboundary": true,
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH)",
+      "sourceType": "official_international",
+      "sourceTitle": "Rabies - WOAH / 93rd General Session 2026",
+      "sourceUrl": "https://www.woah.org/en/disease/rabies/",
+      "secondarySourceUrl": "https://www.woah.org/app/uploads/2026/06/93gs-2026-final-report-en.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "ZW-AH-RABIES-EPIDEMIOLOGY-AHG-2026",
+      "eventType": "epidemiology_status",
+      "disease": "Rabies",
+      "diseaseCode": "RABIES",
+      "status": "surveillance_and_control_active",
+      "outbreakStatus": "not_asserted",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": [
+        "dog",
+        "human",
+        "domestic animals",
+        "wildlife"
+      ],
+      "eventDate": "2018-2024",
+      "reportedAt": "2026-03-01T00:00:00Z",
+      "summary": "WOAH's evaluation of Zimbabwe's dog-mediated rabies control programme reported multi-year surveillance data, including 1,625 animal samples tested between 2018 and 2024.",
+      "zoonotic": true,
+      "transboundary": true,
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH)",
+      "sourceType": "official_international",
+      "sourceTitle": "Ad hoc Group evaluation of official control programmes for dog-mediated rabies",
+      "sourceUrl": "https://www.woah.org/app/uploads/2026/03/a-report-dmr-ahg-2025-public.pdf",
+      "confidence": "high"
+    },
+    {
+      "id": "ZW-AH-HPAI-SURVEILLANCE-2026",
+      "eventType": "surveillance_update",
+      "disease": "Highly Pathogenic Avian Influenza",
+      "diseaseCode": "HPAI",
+      "status": "surveillance_ongoing",
+      "outbreakStatus": "not_asserted",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": [
+        "poultry",
+        "wild birds"
+      ],
+      "eventDate": "2026",
+      "reportedAt": "2026-07-01T00:00:00Z",
+      "summary": "FAO's Sub-Saharan Africa HPAI situation update reported multisectoral HPAI situational analysis and routine government surveillance in Zimbabwe.",
+      "zoonotic": true,
+      "transboundary": true,
+      "sourceOrganisation": "Food and Agriculture Organization of the United Nations (FAO)",
+      "sourceType": "official_international",
+      "sourceTitle": "Sub-Saharan Africa HPAI situation update",
+      "sourceUrl": "https://www.fao.org/animal-health/situation-updates/sub-saharan-africa-hpai/en",
+      "confidence": "high"
+    },
+    {
+      "id": "ZW-AH-FMD-SAT1-WOAH-2026",
+      "eventType": "official_disease_notification",
+      "disease": "Foot-and-mouth disease",
+      "diseaseCode": "FMD",
+      "serotype": "SAT 1",
+      "status": "reported_to_woah",
+      "outbreakStatus": "confirmed_reported_presence",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": [
+        "cattle",
+        "domestic cloven-hoofed animals",
+        "susceptible wildlife"
+      ],
+      "eventDate": "2026",
+      "reportedAt": "2026-08-28T00:00:00Z",
+      "summary": "WOAH reported new foot-and-mouth disease SAT 1 notifications from Zimbabwe during 2026 as part of wider southern African activity.",
+      "zoonotic": false,
+      "transboundary": true,
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH)",
+      "sourceType": "official_international",
+      "sourceTitle": "The spread of FMD to new areas is concerning, but consequences could be worse",
+      "sourceUrl": "https://www.woah.org/en/article/the-spread-of-fmd-to-new-areas-is-concerning-but-consequences-could-be-worse/",
+      "confidence": "high"
+    },
+    {
+      "id": "ZW-AH-FMD-SAT1-WAHIS-2026-01-16",
+      "eventType": "official_disease_notification_date",
+      "disease": "Foot-and-mouth disease",
+      "diseaseCode": "FMD",
+      "serotype": "SAT 1",
+      "status": "immediate_notification_listed",
+      "outbreakStatus": "confirmed_reported_presence",
+      "verificationStatus": "verified_official",
+      "country": "Zimbabwe",
+      "province": null,
+      "district": null,
+      "locality": null,
+      "species": [
+        "cattle",
+        "domestic cloven-hoofed animals",
+        "susceptible wildlife"
+      ],
+      "eventDate": "2026-01-16",
+      "reportedAt": "2026-01-16T00:00:00Z",
+      "summary": "WOAH Africa's immediate-notifications index lists Zimbabwe reporting foot-and-mouth disease serotype SAT 1 on 16 January 2026. This provides a precise official notification date complementing the broader 2026 FMD SAT 1 intelligence record.",
+      "zoonotic": false,
+      "transboundary": true,
+      "sourceOrganisation": "World Organisation for Animal Health (WOAH) - Africa",
+      "sourceType": "official_international",
+      "sourceTitle": "Immediate notifications in Africa",
+      "sourceUrl": "https://rr-africa.woah.org/en/immediate-notifications-in-africa/",
+      "confidence": "high"
+    }
   ],
-  "weeklyHighlights":{"status":"connected_partial","indexUrl":"https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/weekly/index_2026.json","validatedMetricsUrl":"https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/weekly/validated_metrics_2026.json","notableEventsUrl":"https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/weekly/notable_events_2026.json","coverageFrom":"2026-02-06","coverageTo":"2026-08-21","reportCount":26,"recordCount":224,"monthlyFeedCount":7,"note":"Weekly data are separate from the five core events and are partitioned by month for incremental synchronization. No newer Weekly Highlights report was added without source verification."},
-  "diseaseProfiles":[{"diseaseCode":"RABIES","name":"Rabies","zoonotic":true},{"diseaseCode":"ANTHRAX","name":"Anthrax","zoonotic":true},{"diseaseCode":"HPAI","name":"Highly Pathogenic Avian Influenza","zoonotic":true},{"diseaseCode":"FMD","name":"Foot-and-mouth disease","zoonotic":false},{"diseaseCode":"LSD","name":"Lumpy skin disease","zoonotic":false},{"diseaseCode":"TBD","name":"Tick-borne diseases","zoonotic":false},{"diseaseCode":"NEWCASTLE","name":"Newcastle disease","zoonotic":false},{"diseaseCode":"BRUCELLOSIS","name":"Brucellosis","zoonotic":true},{"diseaseCode":"AAT","name":"Animal African Trypanosomiasis","zoonotic":false},{"diseaseCode":"HAT","name":"Human African Trypanosomiasis","zoonotic":true}]
+  "weeklyHighlights": {
+    "status": "connected_partial",
+    "indexUrl": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/weekly/index_2026.json",
+    "validatedMetricsUrl": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/weekly/validated_metrics_2026.json",
+    "notableEventsUrl": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/weekly/notable_events_2026.json",
+    "coverageFrom": "2026-02-06",
+    "coverageTo": "2026-08-21",
+    "reportCount": 26,
+    "recordCount": 224,
+    "monthlyFeedCount": 7,
+    "note": "Weekly data are separate from the five core events and are partitioned by month for incremental synchronization. Coverage remains through 21 August 2026. The official WOAH Africa immediate-notifications index was checked on 4 September 2026; no newer Zimbabwe notification or later DVS Weekly Highlights report was added without source verification."
+  },
+  "diseaseProfiles": [
+    {
+      "diseaseCode": "RABIES",
+      "name": "Rabies",
+      "zoonotic": true
+    },
+    {
+      "diseaseCode": "ANTHRAX",
+      "name": "Anthrax",
+      "zoonotic": true
+    },
+    {
+      "diseaseCode": "HPAI",
+      "name": "Highly Pathogenic Avian Influenza",
+      "zoonotic": true
+    },
+    {
+      "diseaseCode": "FMD",
+      "name": "Foot-and-mouth disease",
+      "zoonotic": false
+    },
+    {
+      "diseaseCode": "LSD",
+      "name": "Lumpy skin disease",
+      "zoonotic": false
+    },
+    {
+      "diseaseCode": "TBD",
+      "name": "Tick-borne diseases",
+      "zoonotic": false
+    },
+    {
+      "diseaseCode": "NEWCASTLE",
+      "name": "Newcastle disease",
+      "zoonotic": false
+    },
+    {
+      "diseaseCode": "BRUCELLOSIS",
+      "name": "Brucellosis",
+      "zoonotic": true
+    },
+    {
+      "diseaseCode": "AAT",
+      "name": "Animal African Trypanosomiasis",
+      "zoonotic": false
+    },
+    {
+      "diseaseCode": "HAT",
+      "name": "Human African Trypanosomiasis",
+      "zoonotic": true
+    }
+  ]
 }
