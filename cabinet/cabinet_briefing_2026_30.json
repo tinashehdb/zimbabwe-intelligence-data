@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ZW-CAB-2026-30",
+  "meetingNumber": 30,
+  "date": "2026-09-16",
+  "title": "Thirtieth Post-Cabinet Press Briefing 2026",
+  "primaryAgendaItem": "2026/27 drought resilience plan; Harare vending formalisation; health sector update; climate and international cooperation",
+  "summary": "Cabinet approved the 2026/27 Summer Plan incorporating a six-pillar drought plan, measures to address informal vending in Harare, the July 2026 health-sector update, the Chartered Secretaries (Private) Amendment Bill, and a Zimbabwe-Sweden environment and climate cooperation MoU. Cabinet also received reports on solar cooperation, Zimbabwe-China economic and technical cooperation, the Non-Aligned Movement commemoration and Zimbabwe's participation at the 76th WHO Regional Committee for Africa.",
+  "categories": ["Agriculture","Food Security","Livestock","Climate","Economy","Urban Management","Public Health","Energy","Environment","Governance","Foreign Affairs","Trade","Technology"],
+  "keywords": ["El Nino","drought plan","Strategic Grain Reserve","climate-smart production","livestock drought mitigation","food imports","feed imports","early warning","Harare vendors","formalisation","public health","solar energy","health sector","Zimbabwe Sweden","environment","climate","Zimbabwe China","SPS","artificial intelligence","WHO Africa","medicines pooled procurement"],
+  "agricultureRelevant": true,
+  "publicHealthRelevant": true,
+  "veterinaryRelevant": true,
+  "oneHealthRelevant": true,
+  "environmentRelevant": true,
+  "highlights": [
+    {"topic":"2026/27 Summer Plan and drought response","detail":"Cabinet approved six resilience pillars: enhanced Strategic Grain Reserve; accelerated climate-smart production; integrated financing; livestock drought mitigation; enhanced imports; and coordination, early-warning systems and capacity-building."},
+    {"topic":"Food security outlook","detail":"National cereal production for 2026/27 is expected at 1.6 million metric tonnes, with a Strategic Grain Reserve target of 600,000 metric tonnes and an expected cereal deficit of 266,881 to 541,881 metric tonnes."},
+    {"topic":"Food and livestock feed imports","detail":"The private sector will be allowed to import to meet commercial needs for both food and feed, while household basic-food import provisions will continue and are to be reviewed upwards."},
+    {"topic":"Harare vending and formalisation","detail":"Cabinet approved measures based on Legislate, Provide, Formalise and Enforce, including servicing 100 vending sites, a new satellite market and a 60-day one-stop formalisation drive."},
+    {"topic":"Solar energy","detail":"Cabinet noted outcomes of the Eighth International Solar Alliance Regional Committee for Africa, including STAR-C at Chinhoyi University of Technology, the Solar Universal Gender Assessment Tool, the Zimbabwe-ISA Country Partnership Framework and the Solar Agriculture for She pact."},
+    {"topic":"Health sector","detail":"Cabinet approved the July 2026 Health Sector Update, noting implementation of the National Health Strategy 2026-2030, health financing and workforce measures, medicines availability, immunisation, maternal health, cervical cancer services, epidemic preparedness and cholera response."},
+    {"topic":"Chartered Secretaries Amendment Bill","detail":"Cabinet approved the Chartered Secretaries (Private) Amendment Bill, 2026 to modernise the institute and broaden governance, accountancy, auditing and related professional education and regulation."},
+    {"topic":"Zimbabwe-Sweden climate cooperation","detail":"Cabinet approved an MoU on environment, climate and sustainable natural-resource use, covering capacity-building, pollution reduction, carbon trading, climate mitigation and enhanced weather and climate early-warning services."},
+    {"topic":"Zimbabwe-China cooperation","detail":"Cabinet noted the 11th JETC session, including trade and investment cooperation, China's Unified Quarantine Announcements for selected products, value addition, e-commerce, digital trade, artificial intelligence and emerging technologies."},
+    {"topic":"WHO Regional Committee for Africa","detail":"Cabinet approved Zimbabwe's report from RC76. Six SADC Member States agreed to establish a technical committee to explore a Regional Medicines and Health Commodities Pooled Procurement Initiative."}
+  ],
+  "sourceName": "30th Post-Cabinet Media Briefing",
+  "sourceDate": "2026-09-16",
+  "sourceType": "published post-Cabinet briefing",
+  "sourceUrl": "https://www.heraldonline.co.zw/cabinet-unveils-drought-plan-vending-reforms/",
+  "sourceNote": "Structured from the published 30th Post-Cabinet media briefing presented in Harare on 16 September 2026 and published by The Herald on 17 September 2026."
+}
