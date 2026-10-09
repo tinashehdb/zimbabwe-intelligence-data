@@ -1,0 +1,82 @@
+{
+  "feedVersion": "1.0",
+  "schemaVersion": 1,
+  "yearMonth": "2026-09",
+  "status": "connected_partial",
+  "reportCount": 1,
+  "recordCount": 3,
+  "reports": [
+    {
+      "weekEnding": "2026-09-18",
+      "sourceLabelWeek": 38,
+      "sourceOrganisation": "Directorate of Veterinary Services, Zimbabwe",
+      "sourceTitle": "DVS Weekly Highlights Week 38, ending 2026-09-18",
+      "sourceType": "internal_weekly_report",
+      "verificationStatus": "source_reported",
+      "releaseStatus": "derived_aggregate_only"
+    }
+  ],
+  "observations": [
+    {
+      "id": "ZW-DVS-WH-2026-09-18-FMD-BUFFALO",
+      "eventDate": "2026-09-18",
+      "diseaseCode": "FMD",
+      "title": "FMD biosecurity and buffalo-fence inspections",
+      "signals": [
+        "risk_monitoring",
+        "buffalo_cattle_interface"
+      ],
+      "summary": "DVS reported inspection of 9 of 29 buffalo-holding properties. Fence maintenance, compliance and buffalo–cattle contact remained priorities. Property-level identifiers withheld.",
+      "metrics": {
+        "propertiesInspectedCumulative": 9,
+        "propertiesIdentifiedTotal": 29
+      },
+      "sourceReportWeekEnding": "2026-09-18",
+      "sourceLabelWeek": 38,
+      "publicationStatus": "derived_not_original_document"
+    },
+    {
+      "id": "ZW-DVS-WH-2026-09-18-DIP-TANK",
+      "eventDate": "2026-09-18",
+      "diseaseCode": "TBD",
+      "title": "Dipping infrastructure and acaricide availability",
+      "signals": [
+        "dipping",
+        "dip_tank_rehabilitation",
+        "water_supply"
+      ],
+      "summary": "Fortnightly dipping continued, with acaricide stocks described as available across provinces; pour-on alternatives were used in water-constrained locations.",
+      "metrics": {
+        "solarPoweredBoreholesCumulative": 240
+      },
+      "sourceReportWeekEnding": "2026-09-18",
+      "sourceLabelWeek": 38,
+      "publicationStatus": "derived_not_original_document"
+    },
+    {
+      "id": "ZW-DVS-WH-2026-09-18-DIGITAL",
+      "eventDate": "2026-09-18",
+      "diseaseCode": "VET_DIGITALIZATION",
+      "title": "Digital Stock Card adoption",
+      "signals": [
+        "digitalisation",
+        "livestock_records"
+      ],
+      "summary": "The report recorded digitised dipping and quarterly livestock census entries from four trained provinces. Entry counts are not animal counts.",
+      "metrics": {
+        "totalEntries": 44485,
+        "dippingEntries": 43251,
+        "censusEntries": 1234
+      },
+      "sourceReportWeekEnding": "2026-09-18",
+      "sourceLabelWeek": 38,
+      "publicationStatus": "derived_not_original_document"
+    }
+  ],
+  "dataQualityNotes": [
+    "Public derived aggregates and high-level epidemiological observations only.",
+    "Do not sum cumulative counts across weeks.",
+    "Suspected events are not confirmed events.",
+    "Internal reports may contain corrections; check later official revisions."
+  ]
+}
