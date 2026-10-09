@@ -46,17 +46,19 @@
       "lastChecked": "2026-09-04T00:00:00Z"
     },
     "animalHealth": {
-      "status": "connected",
-      "version": 8,
+      "status": "connected_partial",
+      "version": 9,
       "schemaVersion": 2,
-      "recordCount": 5,
-      "totalAvailableRecordCount": 249,
-      "updatedAt": "2026-09-08T00:00:00Z",
+      "recordCount": 7,
+      "totalAvailableRecordCount": 251,
+      "updatedAt": "2026-10-09T00:00:00Z",
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/animal_health/events.json",
       "weeklyReportCount": 27,
       "weeklyObservationCount": 240,
       "coverageFrom": "2026-02-06",
-      "coverageTo": "2026-09-04"
+      "coverageTo": "2026-09-04",
+      "latestPublicSourceDate": "2026-08-06",
+      "weeklyHighlightsStatus": "awaiting_authorised_review"
     },
     "health": {
       "status": "not_connected",
