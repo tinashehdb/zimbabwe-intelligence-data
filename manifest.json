@@ -1,20 +1,20 @@
 {
   "feedVersion": "1.0",
   "country": "Zimbabwe",
-  "updatedAt": "2026-10-09T00:00:00Z",
+  "updatedAt": "2026-10-21T00:00:00Z",
   "datasets": {
     "cabinet": {
       "status": "connected_partial",
-      "version": 8,
+      "version": 9,
       "schemaVersion": 1,
-      "recordCount": 31,
+      "recordCount": 33,
       "coverageFrom": "2026-02-10",
-      "coverageTo": "2026-10-06",
-      "lastChecked": "2026-10-09T00:00:00Z",
+      "coverageTo": "2026-10-20",
+      "lastChecked": "2026-10-21T00:00:00Z",
       "url": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/cabinet/cabinet_briefings_2026.json",
-      "latestSupplementUrl": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/cabinet/cabinet_briefing_2026_30.json",
-      "latestMeetingNumber": 32,
-      "previousSupplementUrl": "https://raw.githubusercontent.com/tinashehdb/zimbabwe-intelligence-data/main/cabinet/cabinet_briefing_2026_29.json",
+      "latestSupplementUrl": null,
+      "latestMeetingNumber": 34,
+      "previousSupplementUrl": null,
       "missingMeetingNumbers": [
         31
       ]
@@ -58,7 +58,9 @@
       "coverageFrom": "2026-02-06",
       "coverageTo": "2026-09-04",
       "latestPublicSourceDate": "2026-08-06",
-      "weeklyHighlightsStatus": "awaiting_authorised_review"
+      "weeklyHighlightsStatus": "awaiting_authorised_review",
+      "lastSourceLocated": "2026-10-19",
+      "latestSourceReport": "DVS Week 42 (held for authorised review)"
     },
     "health": {
       "status": "not_connected",
