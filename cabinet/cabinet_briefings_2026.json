@@ -797,8 +797,8 @@
       "meetingNumber": 34,
       "date": "2026-10-20",
       "title": "Thirty-Fourth Post-Cabinet Press Briefing 2026",
-      "primaryAgendaItem": "2026/27 Summer Plan and drought mitigation update",
-      "summary": "Cabinet approved an update to the 2026/27 Summer Plan incorporating six resilience pillars: Strategic Grain Reserve, climate-smart production, integrated financing, livestock drought mitigation, imports, and early warning and capacity support. The update cited a projected cereal production of 1,607,198 tonnes against requirements of 2,270,386 tonnes and a strategic grain reserve goal of 600,000 tonnes by October 2027.",
+      "primaryAgendaItem": "2026/27 Summer Plan and drought response; repatriation; drug and substance abuse; economic empowerment; international cooperation",
+      "summary": "Cabinet approved an update to the 2026/27 Summer Plan incorporating six drought-resilience pillars, including livestock drought mitigation, enhanced imports and early warning. Projected cereal output was 1,607,198 tonnes against requirements of 2,270,386 tonnes. The livestock component identified 2,236,203 cattle at risk from drought in 2027 and ward drought mitigation centres for rural wards. Cabinet also considered repatriation, drug and substance abuse response, reserved sectors and international cooperation agreements.",
       "categories": [
         "Agriculture",
         "Livestock",
@@ -808,11 +808,12 @@
         "Early Warning"
       ],
       "keywords": [
-        "El Nino",
-        "Pillar 4",
+        "El Niño",
         "livestock drought mitigation",
+        "Ward Drought Mitigation Centres",
         "Strategic Grain Reserve",
-        "Pfumvudza"
+        "fertiliser imports",
+        "early warning"
       ],
       "agricultureRelevant": true,
       "publicHealthRelevant": false,
@@ -823,7 +824,7 @@
       "sourceDate": "2026-10-20",
       "sourceType": "published post-Cabinet briefing",
       "sourceUrl": "https://www.heraldonline.co.zw/govt-to-leverage-on-strategic-grain-reserve-irrigation-to-mitigate-effects-of-el-nino/",
-      "sourceNote": "The published report is dated 21 October; briefing held 20 October. Short independently authored summary of selected agenda items."
+      "sourceNote": "Summarised from the 34th Post-Cabinet Media Briefing for 20 October 2026, published by The Herald on 21 October. Includes only selected agenda items."
     }
   ]
 }
