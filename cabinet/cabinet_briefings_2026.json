@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "datasetTitle": "Zimbabwe Post-Cabinet Press Briefings 2026",
-  "generatedOn": "2026-10-09",
+  "generatedOn": "2026-10-21",
   "coverage": {
     "from": "2026-02-10",
-    "to": "2026-10-06",
-    "recordCount": 31,
-    "note": "Includes confirmed meeting 32 of 6 October 2026; meeting 31 is not present or verified in this dataset. The record count is not a continuous meeting series."
+    "to": "2026-10-20",
+    "recordCount": 33,
+    "note": "Includes confirmed meetings through number 34 (20 October 2026); meeting 31 remains absent/unverified. This is not a continuous meeting series."
   },
   "provenance": {
     "primaryArchive": "Veritas Zimbabwe Post-Cabinet Meeting Briefings",
@@ -759,6 +759,71 @@
       "sourceName": "The Herald – published Cabinet briefing",
       "sourceDate": "2026-10-07",
       "sourceUrl": "https://www.heraldonline.co.zw/cabinet-approves-women-empowerment-framework/"
+    },
+    {
+      "id": "ZW-CAB-2026-33",
+      "meetingNumber": 33,
+      "date": "2026-10-13",
+      "title": "Thirty-Third Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "Rehabilitation of degraded riverine ecosystems; Child Justice Bill; Kariba floating solar energy project",
+      "summary": "Cabinet reviewed rehabilitation of 15 riverine ecosystems affected by degradation and alluvial mining, considered the Child Justice Bill, 2026, and received progress on the planned 600 MW floating solar project at Lake Kariba.",
+      "categories": [
+        "Environment",
+        "Water Resources",
+        "Mining",
+        "Justice",
+        "Energy",
+        "Climate"
+      ],
+      "keywords": [
+        "riverine rehabilitation",
+        "alluvial mining",
+        "Child Justice Bill",
+        "Kariba floating solar"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": false,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "The Herald – 33rd Post-Cabinet Media Briefing",
+      "sourceDate": "2026-10-13",
+      "sourceType": "published post-Cabinet briefing",
+      "sourceUrl": "https://www.heraldonline.co.zw/govt-working-flat-out-to-restore-masvingo-in-wake-of-devastating-hailstorm/",
+      "sourceNote": "Summary of selected confirmed topics; not an exhaustive reproduction of the briefing."
+    },
+    {
+      "id": "ZW-CAB-2026-34",
+      "meetingNumber": 34,
+      "date": "2026-10-20",
+      "title": "Thirty-Fourth Post-Cabinet Press Briefing 2026",
+      "primaryAgendaItem": "2026/27 Summer Plan and drought mitigation update",
+      "summary": "Cabinet approved an update to the 2026/27 Summer Plan incorporating six resilience pillars: Strategic Grain Reserve, climate-smart production, integrated financing, livestock drought mitigation, imports, and early warning and capacity support. The update cited a projected cereal production of 1,607,198 tonnes against requirements of 2,270,386 tonnes and a strategic grain reserve goal of 600,000 tonnes by October 2027.",
+      "categories": [
+        "Agriculture",
+        "Livestock",
+        "Climate",
+        "Food Security",
+        "Drought Preparedness",
+        "Early Warning"
+      ],
+      "keywords": [
+        "El Nino",
+        "Pillar 4",
+        "livestock drought mitigation",
+        "Strategic Grain Reserve",
+        "Pfumvudza"
+      ],
+      "agricultureRelevant": true,
+      "publicHealthRelevant": false,
+      "veterinaryRelevant": true,
+      "oneHealthRelevant": true,
+      "environmentRelevant": true,
+      "sourceName": "The Herald – 34th Post-Cabinet Media Briefing",
+      "sourceDate": "2026-10-20",
+      "sourceType": "published post-Cabinet briefing",
+      "sourceUrl": "https://www.heraldonline.co.zw/govt-to-leverage-on-strategic-grain-reserve-irrigation-to-mitigate-effects-of-el-nino/",
+      "sourceNote": "The published report is dated 21 October; briefing held 20 October. Short independently authored summary of selected agenda items."
     }
   ]
 }
