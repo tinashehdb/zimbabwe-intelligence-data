@@ -14,7 +14,7 @@ This repository is publicly accessible. Never commit internal Weekly Highlights 
 
 ## Known source gaps (not yet published)
 
-DVS reports were located for weeks ending 18 September, 25 September and 2 October 2026. Their original source content is **not** incorporated in the public feed. The latest publicly indexed week remains 4 September 2026. Do not extend the coverage date until approval and publication are complete.
+DVS reports were located for weeks ending 18 September, 25 September and 2 October 2026. A newer Week 42 report was located in the DVS correspondence of 19 October 2026, but has not been authorised for public publication. Their original source content is **not** incorporated in the public feed. The latest publicly indexed week remains 4 September 2026. Do not extend the coverage date until approval and publication are complete.
 
 ## Suggested Android behavior
 
